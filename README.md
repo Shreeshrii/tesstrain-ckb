@@ -9,7 +9,9 @@ Since `ocrevalutf8 accuracy` is not able to handle large utf files, only a selec
 
 ## Comparative Results
 
-The following table has comparative results for the list.eval set of lstmf files for the _fast models from official repo and various finetuned models for Central Kurdish.
+The following table has comparative results for the most used fonts for the _fast models from official repo 
+and various finetuned models for Central Kurdish, using [lstmf files in list.eval](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb/list.eval)
+which were not used for training.
 
 |                                   	|                 	| Arial 	| Arial Bold 	| Tahoma 	| Tahoma Bold 	|
 |-----------------------------------	|-----------------	|------:	|-----------:	|-------:	|------------:	|
@@ -21,34 +23,13 @@ The following table has comparative results for the list.eval set of lstmf files
 | tessdata_fast/script/Arabic       	| Basic Arabic    	| 93.75 	|      93.90 	|  91.37 	|       86.38 	|
 | tessdata_fast/script/Arabic       	| Arabic Extended 	| 62.72 	|      61.85 	|  65.30 	|       57.65 	|
 |                                   	|                 	|       	|            	|        	|             	|
-| ckb100Layer_fast                  	| Accuracy        	| 84.35 	|      85.66 	|  85.72 	|       82.11 	|
-| ckb100Layer_fast                  	| Basic Arabic    	| 89.20 	|      89.47 	|  89.59 	|       86.03 	|
-| ckb100Layer_fast                  	| Arabic Extended 	| 94.53 	|      95.30 	|  95.28 	|       90.24 	|
-|                                   	|                 	|       	|            	|        	|             	|
-| ckbnew100Layer_fast               	| Accuracy        	| 87.50 	|      87.87 	|  88.46 	|       85.09 	|
-| ckbnew100Layer_fast               	| Basic Arabic    	| 89.68 	|      89.49 	|  90.28 	|       86.82 	|
-| ckbnew100Layer_fast               	| Arabic Extended 	| 94.44 	|      95.05 	|  95.43 	|       90.50 	|
-|                                   	|                 	|       	|            	|        	|             	|
-| ckballLayer_3.902_122431_261300 	|                 	|       	|            	|        	|             	|
-| ckballLayer_fast                  	| Accuracy        	| 91.97 	| 92.31      	| 91.78  	| 88.85       	|
-| ckballLayer_fast                  	| Basic Arabic    	| 95.68 	| 95.85      	| 95.70  	| 92.25       	|
-| ckballLayer_fast                  	| Arabic Extended 	| 98.55 	| 98.54      	| 97.34  	| 94.09       	|
+| ckbLayer_1.661_152089_296500 	|                 	|       	|            	|        	|             	|
+| ckbLayer_fast                  	| Accuracy        	| 98.20 	| 97.78      	| 98.06  	| 96.13       	|
+| ckbLayer_fast                  	| Basic Arabic    	| 99.10 	| 99.15      	| 98.54  	| 98.44       	|
+| ckbLayer_fast                  	| Arabic Extended 	| 98.30 	| 98.70      	| 99.10  	| 96.27       	|
 
-## ckballfonts - Central Kurdish/Sorani in Arabic script
+## ckb - Central Kurdish/Sorani in Arabic script
 
-Using approximately 40 fonts, using punctuation, AWN and AEN numbers.
+Using 26 fonts, includes punctuation, AWN and AEN numbers.
 
-* [ckballfontsLayer_fast]()
-
-## ckball - Central Kurdish/Sorani in Arabic script
-
-Only Arial and Tahoma fonts, using punctuation, AWN and AEN numbers.
-
-* [ckballLayer_fast]()
-
-## Other Central Kurdish/Sorani in Arabic script Finetuned Traineddata files
-
-Only Arial and Tahoma fonts, using a limited unicharset
-
-* [ckb100Layer_fast - No punctuation or Numbers](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb100Layer_fast.traineddata)
-* [ckbnew100Layer_fast - Some punctuation No Numbers](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckbnew100Layer_fast.traineddata)
+* [Last three ckb models with lowest CER](https://github.com/Shreeshrii/tesstrain-ckb/tree/master/data/ckb/tessdata_fast)

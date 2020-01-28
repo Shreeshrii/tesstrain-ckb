@@ -1,100 +1,112 @@
 lstmtraining \
           --stop_training \
-          --continue_from data/ckb/checkpoints/ckbLayer_1.899_109042_198300.checkpoint \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint \
           --traineddata data/ckb/ckb.traineddata \
-          --model_output data/ckb/tessdata_best/ckbLayer_1.899_109042_198300.traineddata
-Loaded file data/ckb/checkpoints/ckbLayer_1.899_109042_198300.checkpoint, unpacking...
+          --model_output data/ckb/tessdata_best/ckbLayer_1.661_152089_296500.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint, unpacking...
 lstmtraining \
           --stop_training \
-          --continue_from data/ckb/checkpoints/ckbLayer_1.899_109042_198300.checkpoint \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint \
           --traineddata data/ckb/ckb.traineddata \
           --convert_to_int \
-          --model_output data/ckb/tessdata_fast/ckbLayer_1.899_109042_198300.traineddata
-Loaded file data/ckb/checkpoints/ckbLayer_1.899_109042_198300.checkpoint, unpacking...
+          --model_output data/ckb/tessdata_fast/ckbLayer_1.661_152089_296500.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint, unpacking...
 lstmtraining \
           --stop_training \
-          --continue_from data/ckb/checkpoints/ckbLayer_2.015_93076_163700.checkpoint \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.748_133226_252900.checkpoint \
           --traineddata data/ckb/ckb.traineddata \
-          --convert_to_int \
-          --model_output data/ckb/tessdata_fast/ckbLayer_2.015_93076_163700.traineddata
-Loaded file data/ckb/checkpoints/ckbLayer_2.015_93076_163700.checkpoint, unpacking...
+          --model_output data/ckb/tessdata_best/ckbLayer_1.748_133226_252900.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.748_133226_252900.checkpoint, unpacking...
 lstmtraining \
           --stop_training \
-          --continue_from data/ckb/checkpoints/ckbLayer_2.125_93030_163600.checkpoint \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.748_133226_252900.checkpoint \
           --traineddata data/ckb/ckb.traineddata \
           --convert_to_int \
-          --model_output data/ckb/tessdata_fast/ckbLayer_2.125_93030_163600.traineddata
-Loaded file data/ckb/checkpoints/ckbLayer_2.125_93030_163600.checkpoint, unpacking...
-data/ckb/tessdata_fast/ckbLayer_1.899_109042_198300.traineddata
-ckbLayer_1.899_109042_198300.traineddata
-ckbLayer_1.899_109042_198300
+          --model_output data/ckb/tessdata_fast/ckbLayer_1.748_133226_252900.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.748_133226_252900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.811_133193_252800.checkpoint \
+          --traineddata data/ckb/ckb.traineddata \
+          --model_output data/ckb/tessdata_best/ckbLayer_1.811_133193_252800.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.811_133193_252800.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.811_133193_252800.checkpoint \
+          --traineddata data/ckb/ckb.traineddata \
+          --convert_to_int \
+          --model_output data/ckb/tessdata_fast/ckbLayer_1.811_133193_252800.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.811_133193_252800.checkpoint, unpacking...
+data/ckb/tessdata_fast/ckbLayer_1.661_152089_296500.traineddata
+ckbLayer_1.661_152089_296500.traineddata
+ckbLayer_1.661_152089_296500
 
-******************************************************************* Arabic *****   ckbLayer_1.899_109042_198300  
+***** Arabic *****   ckbLayer_1.661_152089_296500  
 
 
 ----------------------------------------------------------------------------- ckb
 
-------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_1.899_109042_198300
+------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2649   Characters
-      86   Errors
-   96.75%  Accuracy
+      82   Errors
+   96.90%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.75%  Accuracy After Correction
+   96.90%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      58       16       12       86   Unmarked
-      58       16       12       86   Total
+      57       14       11       82   Unmarked
+      57       14       11       82   Total
 
    Count   Missed   %Right
      367        0   100.00   ASCII Spacing Characters
-      22        4    81.82   ASCII Special Symbols
+      22        6    72.73   ASCII Special Symbols
       10        0   100.00   ASCII Digits
-    1287        9    99.30   Basic Arabic
-     954       52    94.55   Arabic Extended
+    1287        6    99.53   Basic Arabic
+     954       50    94.76   Arabic Extended
        9        9     0.00   General Punctuation
-    2649       74    97.21   Total
+    2649       71    97.32   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_1.899_109042_198300
+------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3246   Characters
-     140   Errors
-   95.69%  Accuracy
+     142   Errors
+   95.63%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   95.69%  Accuracy After Correction
+   95.63%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      50       64       26      140   Unmarked
-      50       64       26      140   Total
+      52       65       25      142   Unmarked
+      52       65       25      142   Total
 
    Count   Missed   %Right
      449        4    99.11   ASCII Spacing Characters
-      87       29    66.67   ASCII Special Symbols
-    1689       34    97.99   Basic Arabic
-    1009       35    96.53   Arabic Extended
+      87       31    64.37   ASCII Special Symbols
+    1689       36    97.87   Basic Arabic
+    1009       34    96.63   Arabic Extended
       12       12     0.00   General Punctuation
-    3246      114    96.49   Total
+    3246      117    96.40   Total
 
   Errors   Marked   Correct-Generated
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_1.899_109042_198300
+------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2171   Characters
@@ -109,845 +121,52 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      18       28       24       70   Unmarked
-      18       28       24       70   Total
-
-   Count   Missed   %Right
-     336        1    99.70   ASCII Spacing Characters
-      48        8    83.33   ASCII Special Symbols
-      40        0   100.00   ASCII Digits
-    1066       22    97.94   Basic Arabic
-     677       11    98.38   Arabic Extended
-       4        4     0.00   General Punctuation
-    2171       46    97.88   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2613   Characters
-      64   Errors
-   97.55%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.55%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      12       34       18       64   Unmarked
-      12       34       18       64   Total
-
-   Count   Missed   %Right
-     398        0   100.00   ASCII Spacing Characters
-      36        8    77.78   ASCII Special Symbols
-      29        0   100.00   ASCII Digits
-       5        5     0.00   Latin1 Special Symbols
-    1286       14    98.91   Basic Arabic
-     854       14    98.36   Arabic Extended
-       5        5     0.00   General Punctuation
-    2613       46    98.24   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2260   Characters
-     115   Errors
-   94.91%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   94.91%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      64       22       29      115   Unmarked
-      64       22       29      115   Total
-
-   Count   Missed   %Right
-     348        7    97.99   ASCII Spacing Characters
-      54        8    85.19   ASCII Special Symbols
-      43        3    93.02   ASCII Digits
-    1140       44    96.14   Basic Arabic
-     674       23    96.59   Arabic Extended
-       1        1     0.00   General Punctuation
-    2260       86    96.19   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2106   Characters
-     162   Errors
-   92.31%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   92.31%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      78       62       22      162   Unmarked
-      78       62       22      162   Total
-
-   Count   Missed   %Right
-     307        8    97.39   ASCII Spacing Characters
-      37       16    56.76   ASCII Special Symbols
-      22        0   100.00   ASCII Digits
-    1036       78    92.47   Basic Arabic
-     698       32    95.42   Arabic Extended
-       6        6     0.00   General Punctuation
-    2106      140    93.35   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2398   Characters
-      47   Errors
-   98.04%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.04%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      14       21       12       47   Unmarked
-      14       21       12       47   Total
-
-   Count   Missed   %Right
-     365        1    99.73   ASCII Spacing Characters
-      38       10    73.68   ASCII Special Symbols
-      16        0   100.00   ASCII Digits
-    1257       15    98.81   Basic Arabic
-     717        4    99.44   Arabic Extended
-       5        5     0.00   General Punctuation
-    2398       35    98.54   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2076   Characters
-     178   Errors
-   91.43%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   91.43%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      72       88       18      178   Unmarked
-      72       88       18      178   Total
-
-   Count   Missed   %Right
-     288        0   100.00   ASCII Spacing Characters
-      20        5    75.00   ASCII Special Symbols
-      10        0   100.00   ASCII Digits
-       1        0   100.00   Latin1 Special Symbols
-    1080       93    91.39   Basic Arabic
-     668       53    92.07   Arabic Extended
-       9        9     0.00   General Punctuation
-    2076      160    92.29   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    1946   Characters
-      35   Errors
-   98.20%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.20%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-       9       13       13       35   Unmarked
-       9       13       13       35   Total
-
-   Count   Missed   %Right
-     280        1    99.64   ASCII Spacing Characters
-      20        1    95.00   ASCII Special Symbols
-       5        0   100.00   ASCII Digits
-     995        8    99.20   Basic Arabic
-     646       12    98.14   Arabic Extended
-    1946       22    98.87   Total
-
-  Errors   Marked   Correct-Generated
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    5823   Characters
-     136   Errors
-   97.66%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.66%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      26       60       50      136   Unmarked
-      26       60       50      136   Total
-
-   Count   Missed   %Right
-     874        0   100.00   ASCII Spacing Characters
-      71       11    84.51   ASCII Special Symbols
-      55        1    98.18   ASCII Digits
-      11       10     9.09   Latin1 Special Symbols
-    2950       28    99.05   Basic Arabic
-    1853       27    98.54   Arabic Extended
-       9        9     0.00   General Punctuation
-    5823       86    98.52   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2714   Characters
-      49   Errors
-   98.19%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.19%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      15       21       13       49   Unmarked
-      15       21       13       49   Total
-
-   Count   Missed   %Right
-     386        1    99.74   ASCII Spacing Characters
-      28        8    71.43   ASCII Special Symbols
-       1        0   100.00   ASCII Digits
-    1329        6    99.55   Basic Arabic
-     962       13    98.65   Arabic Extended
-       8        8     0.00   General Punctuation
-    2714       36    98.67   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2522   Characters
-      66   Errors
-   97.38%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.38%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      19       22       25       66   Unmarked
-      19       22       25       66   Total
-
-   Count   Missed   %Right
-     413        1    99.76   ASCII Spacing Characters
-      56       10    82.14   ASCII Special Symbols
-      72        4    94.44   ASCII Digits
-       2        2     0.00   Latin1 Special Symbols
-    1251        7    99.44   Basic Arabic
-     723       12    98.34   Arabic Extended
-       5        5     0.00   General Punctuation
-    2522       41    98.37   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2689   Characters
-      66   Errors
-   97.55%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.55%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      23       27       16       66   Unmarked
-      23       27       16       66   Total
-
-   Count   Missed   %Right
-     382        2    99.48   ASCII Spacing Characters
-      41        6    85.37   ASCII Special Symbols
-      30        0   100.00   ASCII Digits
-    1346       14    98.96   Basic Arabic
-     879       17    98.07   Arabic Extended
-      11       11     0.00   General Punctuation
-    2689       50    98.14   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    1808   Characters
-      73   Errors
-   95.96%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   95.96%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      27       35       11       73   Unmarked
-      27       35       11       73   Total
-
-   Count   Missed   %Right
-     281        2    99.29   ASCII Spacing Characters
-      39       20    48.72   ASCII Special Symbols
-      10        0   100.00   ASCII Digits
-     939       16    98.30   Basic Arabic
-     528       13    97.54   Arabic Extended
-      11       11     0.00   General Punctuation
-    1808       62    96.57   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    3180   Characters
-     103   Errors
-   96.76%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.76%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      32       49       22      103   Unmarked
-      32       49       22      103   Total
-
-   Count   Missed   %Right
-     469        0   100.00   ASCII Spacing Characters
-      60        8    86.67   ASCII Special Symbols
-      61        1    98.36   ASCII Digits
-    1579       31    98.04   Basic Arabic
-     996       26    97.39   Arabic Extended
-      15       15     0.00   General Punctuation
-    3180       81    97.45   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2616   Characters
-      78   Errors
-   97.02%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.02%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      29       23       26       78   Unmarked
-      29       23       26       78   Total
-
-   Count   Missed   %Right
-     420        0   100.00   ASCII Spacing Characters
-      61       10    83.61   ASCII Special Symbols
-      59        4    93.22   ASCII Digits
-       4        2    50.00   Latin1 Special Symbols
-    1251       14    98.88   Basic Arabic
-     810       11    98.64   Arabic Extended
-      11       11     0.00   General Punctuation
-    2616       52    98.01   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    4574   Characters
-     213   Errors
-   95.34%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   95.34%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      45      113       55      213   Unmarked
-      45      113       55      213   Total
-
-   Count   Missed   %Right
-     672        7    98.96   ASCII Spacing Characters
-      98       37    62.24   ASCII Special Symbols
-      46        0   100.00   ASCII Digits
-      10       10     0.00   Latin1 Special Symbols
-    2257       47    97.92   Basic Arabic
-    1472       38    97.42   Arabic Extended
-      19       19     0.00   General Punctuation
-    4574      158    96.55   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    1668   Characters
-      42   Errors
-   97.48%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.48%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      18       16        8       42   Unmarked
-      18       16        8       42   Total
-
-   Count   Missed   %Right
-     254        2    99.21   ASCII Spacing Characters
-      42        4    90.48   ASCII Special Symbols
-      20        1    95.00   ASCII Digits
-       2        2     0.00   Latin1 Special Symbols
-     839        6    99.28   Basic Arabic
-     509       17    96.66   Arabic Extended
-       2        2     0.00   General Punctuation
-    1668       34    97.96   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    5126   Characters
-     142   Errors
-   97.23%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.23%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      52       47       43      142   Unmarked
-      52       47       43      142   Total
-
-   Count   Missed   %Right
-     752        1    99.87   ASCII Spacing Characters
-     110       26    76.36   ASCII Special Symbols
-      44        0   100.00   ASCII Digits
-    2513       25    99.01   Basic Arabic
-    1687       27    98.40   Arabic Extended
-      20       20     0.00   General Punctuation
-    5126       99    98.07   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    3658   Characters
-      67   Errors
-   98.17%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.17%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      18       20       29       67   Unmarked
-      18       20       29       67   Total
-
-   Count   Missed   %Right
-     558        0   100.00   ASCII Spacing Characters
-      88       14    84.09   ASCII Special Symbols
-      67        0   100.00   ASCII Digits
-    1721        9    99.48   Basic Arabic
-    1217        8    99.34   Arabic Extended
-       7        7     0.00   General Punctuation
-    3658       38    98.96   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    4236   Characters
-     171   Errors
-   95.96%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   95.96%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      98       27       46      171   Unmarked
-      98       27       46      171   Total
-
-   Count   Missed   %Right
-     648       19    97.07   ASCII Spacing Characters
-      73       10    86.30   ASCII Special Symbols
-      20        0   100.00   ASCII Digits
-       1        1     0.00   Latin1 Spacing Characters
-       1        0   100.00   Latin1 Special Symbols
-    2120       38    98.21   Basic Arabic
-    1367       51    96.27   Arabic Extended
-       6        6     0.00   General Punctuation
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2211   Characters
-      40   Errors
-   98.19%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.19%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      12       19        9       40   Unmarked
-      12       19        9       40   Total
-
-   Count   Missed   %Right
-     328        3    99.09   ASCII Spacing Characters
-      30       11    63.33   ASCII Special Symbols
-       5        0   100.00   ASCII Digits
-    1107        4    99.64   Basic Arabic
-     737        9    98.78   Arabic Extended
-       4        4     0.00   General Punctuation
-    2211       31    98.60   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2428   Characters
-      71   Errors
-   97.08%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.08%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      27       16       28       71   Unmarked
-      27       16       28       71   Total
-
-   Count   Missed   %Right
-     346        2    99.42   ASCII Spacing Characters
-      30        4    86.67   ASCII Special Symbols
-      20        0   100.00   ASCII Digits
-       2        2     0.00   Latin1 Special Symbols
-    1177       17    98.56   Basic Arabic
-     849       14    98.35   Arabic Extended
-       4        4     0.00   General Punctuation
-    2428       43    98.23   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2523   Characters
-     100   Errors
-   96.04%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.04%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      10       48       42      100   Unmarked
-      10       48       42      100   Total
-
-   Count   Missed   %Right
-     385        2    99.48   ASCII Spacing Characters
-      29        6    79.31   ASCII Special Symbols
-       4        0   100.00   ASCII Digits
-    1231       22    98.21   Basic Arabic
-     872       26    97.02   Arabic Extended
-       2        2     0.00   General Punctuation
-    2523       58    97.70   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2370   Characters
-      93   Errors
-   96.08%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.08%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      36       31       26       93   Unmarked
-      36       31       26       93   Total
-
-   Count   Missed   %Right
-     364        7    98.08   ASCII Spacing Characters
-      52       20    61.54   ASCII Special Symbols
-      25        2    92.00   ASCII Digits
-       1        1     0.00   Latin1 Special Symbols
-    1197       18    98.50   Basic Arabic
-     729       17    97.67   Arabic Extended
-       2        2     0.00   General Punctuation
-    2370       67    97.17   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_1.899_109042_198300
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2243   Characters
-      77   Errors
-   96.57%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.57%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      16       42       19       77   Unmarked
-      16       42       19       77   Total
-
-   Count   Missed   %Right
-     353        2    99.43   ASCII Spacing Characters
-      50       20    60.00   ASCII Special Symbols
-      28        0   100.00   ASCII Digits
-    1073       14    98.70   Basic Arabic
-     735       18    97.55   Arabic Extended
-       4        4     0.00   General Punctuation
-    2243       58    97.41   Total
-
-
------------------------------------------------------------------------------
-accuracy: text stream is too long
-
------------------------------------------------------------------------------
-
-*************************************************************************
-data/ckb/tessdata_fast/ckbLayer_2.015_93076_163700.traineddata
-ckbLayer_2.015_93076_163700.traineddata
-ckbLayer_2.015_93076_163700
-
-******************************************************************* Arabic *****   ckbLayer_2.015_93076_163700  
-
-
------------------------------------------------------------------------------ ckb
-
-------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_2.015_93076_163700
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2649   Characters
-      85   Errors
-   96.79%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.79%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      57       15       13       85   Unmarked
-      57       15       13       85   Total
-
-   Count   Missed   %Right
-     367        0   100.00   ASCII Spacing Characters
-      22        6    72.73   ASCII Special Symbols
-      10        0   100.00   ASCII Digits
-    1287        7    99.46   Basic Arabic
-     954       50    94.76   Arabic Extended
-       9        9     0.00   General Punctuation
-    2649       72    97.28   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_2.015_93076_163700
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    3246   Characters
-     137   Errors
-   95.78%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   95.78%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      49       62       26      137   Unmarked
-      49       62       26      137   Total
-
-   Count   Missed   %Right
-     449        4    99.11   ASCII Spacing Characters
-      87       26    70.11   ASCII Special Symbols
-    1689       35    97.93   Basic Arabic
-    1009       34    96.63   Arabic Extended
-      12       12     0.00   General Punctuation
-    3246      111    96.58   Total
-
-  Errors   Marked   Correct-Generated
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_2.015_93076_163700
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2171   Characters
-      71   Errors
-   96.73%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.73%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      19       30       22       71   Unmarked
-      19       30       22       71   Total
+      21       24       25       70   Unmarked
+      21       24       25       70   Total
 
    Count   Missed   %Right
      336        0   100.00   ASCII Spacing Characters
-      48        8    83.33   ASCII Special Symbols
+      48        9    81.25   ASCII Special Symbols
       40        0   100.00   ASCII Digits
-    1066       24    97.75   Basic Arabic
-     677       13    98.08   Arabic Extended
+    1066       22    97.94   Basic Arabic
+     677       10    98.52   Arabic Extended
        4        4     0.00   General Punctuation
-    2171       49    97.74   Total
+    2171       45    97.93   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2613   Characters
-      62   Errors
-   97.63%  Accuracy
+      61   Errors
+   97.67%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.63%  Accuracy After Correction
+   97.67%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      13       32       17       62   Unmarked
-      13       32       17       62   Total
+      12       33       16       61   Unmarked
+      12       33       16       61   Total
 
    Count   Missed   %Right
      398        0   100.00   ASCII Spacing Characters
       36        8    77.78   ASCII Special Symbols
       29        0   100.00   ASCII Digits
        5        5     0.00   Latin1 Special Symbols
-    1286       16    98.76   Basic Arabic
-     854       11    98.71   Arabic Extended
+    1286       15    98.83   Basic Arabic
+     854       12    98.59   Arabic Extended
        5        5     0.00   General Punctuation
     2613       45    98.28   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2260   Characters
@@ -962,142 +181,142 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      63       26       28      117   Unmarked
-      63       26       28      117   Total
+      63       25       29      117   Unmarked
+      63       25       29      117   Total
 
    Count   Missed   %Right
      348        6    98.28   ASCII Spacing Characters
       54        8    85.19   ASCII Special Symbols
       43        3    93.02   ASCII Digits
-    1140       45    96.05   Basic Arabic
-     674       26    96.14   Arabic Extended
+    1140       47    95.88   Basic Arabic
+     674       23    96.59   Arabic Extended
        1        1     0.00   General Punctuation
-    2260       89    96.06   Total
+    2260       88    96.11   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2106   Characters
-     163   Errors
-   92.26%  Accuracy
+     165   Errors
+   92.17%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   92.26%  Accuracy After Correction
+   92.17%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      78       63       22      163   Unmarked
-      78       63       22      163   Total
+      80       63       22      165   Unmarked
+      80       63       22      165   Total
 
    Count   Missed   %Right
-     307        8    97.39   ASCII Spacing Characters
-      37       16    56.76   ASCII Special Symbols
+     307        9    97.07   ASCII Spacing Characters
+      37       17    54.05   ASCII Special Symbols
       22        0   100.00   ASCII Digits
     1036       79    92.37   Basic Arabic
      698       32    95.42   Arabic Extended
        6        6     0.00   General Punctuation
-    2106      141    93.30   Total
+    2106      143    93.21   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2398   Characters
-      46   Errors
-   98.08%  Accuracy
+      42   Errors
+   98.25%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.08%  Accuracy After Correction
+   98.25%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      14       20       12       46   Unmarked
-      14       20       12       46   Total
+      13       16       13       42   Unmarked
+      13       16       13       42   Total
 
    Count   Missed   %Right
      365        1    99.73   ASCII Spacing Characters
-      38       10    73.68   ASCII Special Symbols
+      38        9    76.32   ASCII Special Symbols
       16        0   100.00   ASCII Digits
-    1257       14    98.89   Basic Arabic
+    1257       10    99.20   Basic Arabic
      717        4    99.44   Arabic Extended
        5        5     0.00   General Punctuation
-    2398       34    98.58   Total
+    2398       29    98.79   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2076   Characters
-     199   Errors
-   90.41%  Accuracy
+     157   Errors
+   92.44%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   90.41%  Accuracy After Correction
+   92.44%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      72      111       16      199   Unmarked
-      72      111       16      199   Total
+      57       85       15      157   Unmarked
+      57       85       15      157   Total
 
    Count   Missed   %Right
      288        0   100.00   ASCII Spacing Characters
       20        5    75.00   ASCII Special Symbols
       10        0   100.00   ASCII Digits
        1        0   100.00   Latin1 Special Symbols
-    1080      107    90.09   Basic Arabic
-     668       62    90.72   Arabic Extended
+    1080       82    92.41   Basic Arabic
+     668       46    93.11   Arabic Extended
        9        9     0.00   General Punctuation
-    2076      183    91.18   Total
+    2076      142    93.16   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1946   Characters
-      31   Errors
-   98.41%  Accuracy
+      35   Errors
+   98.20%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.41%  Accuracy After Correction
+   98.20%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-       8        9       14       31   Unmarked
-       8        9       14       31   Total
+       7       15       13       35   Unmarked
+       7       15       13       35   Total
 
    Count   Missed   %Right
      280        1    99.64   ASCII Spacing Characters
-      20        0   100.00   ASCII Special Symbols
+      20        1    95.00   ASCII Special Symbols
        5        0   100.00   ASCII Digits
-     995        5    99.50   Basic Arabic
+     995        9    99.10   Basic Arabic
      646       11    98.30   Arabic Extended
-    1946       17    99.13   Total
+    1946       22    98.87   Total
 
   Errors   Marked   Correct-Generated
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     5823   Characters
@@ -1112,82 +331,82 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      23       53       53      129   Unmarked
-      23       53       53      129   Total
+      26       54       49      129   Unmarked
+      26       54       49      129   Total
 
    Count   Missed   %Right
      874        0   100.00   ASCII Spacing Characters
       71       11    84.51   ASCII Special Symbols
       55        1    98.18   ASCII Digits
       11       10     9.09   Latin1 Special Symbols
-    2950       24    99.19   Basic Arabic
-    1853       21    98.87   Arabic Extended
+    2950       25    99.15   Basic Arabic
+    1853       24    98.70   Arabic Extended
        9        9     0.00   General Punctuation
-    5823       76    98.69   Total
+    5823       80    98.63   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2714   Characters
-      45   Errors
-   98.34%  Accuracy
+      46   Errors
+   98.31%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.34%  Accuracy After Correction
+   98.31%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      15       17       13       45   Unmarked
-      15       17       13       45   Total
+      15       18       13       46   Unmarked
+      15       18       13       46   Total
 
    Count   Missed   %Right
      386        1    99.74   ASCII Spacing Characters
       28        8    71.43   ASCII Special Symbols
        1        0   100.00   ASCII Digits
     1329        6    99.55   Basic Arabic
-     962        9    99.06   Arabic Extended
+     962       10    98.96   Arabic Extended
        8        8     0.00   General Punctuation
-    2714       32    98.82   Total
+    2714       33    98.78   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2522   Characters
-      64   Errors
-   97.46%  Accuracy
+      67   Errors
+   97.34%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.46%  Accuracy After Correction
+   97.34%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      17       24       23       64   Unmarked
-      17       24       23       64   Total
+      17       26       24       67   Unmarked
+      17       26       24       67   Total
 
    Count   Missed   %Right
      413        1    99.76   ASCII Spacing Characters
       56       10    82.14   ASCII Special Symbols
       72        4    94.44   ASCII Digits
        2        2     0.00   Latin1 Special Symbols
-    1251        8    99.36   Basic Arabic
-     723       11    98.48   Arabic Extended
+    1251        9    99.28   Basic Arabic
+     723       12    98.34   Arabic Extended
        5        5     0.00   General Punctuation
-    2522       41    98.37   Total
+    2522       43    98.30   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2689   Characters
@@ -1202,202 +421,202 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      23       29       16       68   Unmarked
-      23       29       16       68   Total
+      23       30       15       68   Unmarked
+      23       30       15       68   Total
 
    Count   Missed   %Right
      382        2    99.48   ASCII Spacing Characters
       41        6    85.37   ASCII Special Symbols
       30        0   100.00   ASCII Digits
-    1346       13    99.03   Basic Arabic
+    1346       14    98.96   Basic Arabic
      879       20    97.72   Arabic Extended
       11       11     0.00   General Punctuation
-    2689       52    98.07   Total
+    2689       53    98.03   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1808   Characters
-      72   Errors
-   96.02%  Accuracy
+      78   Errors
+   95.69%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.02%  Accuracy After Correction
+   95.69%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      26       35       11       72   Unmarked
-      26       35       11       72   Total
+      25       41       12       78   Unmarked
+      25       41       12       78   Total
 
    Count   Missed   %Right
      281        2    99.29   ASCII Spacing Characters
       39       19    51.28   ASCII Special Symbols
       10        0   100.00   ASCII Digits
-     939       15    98.40   Basic Arabic
-     528       14    97.35   Arabic Extended
+     939       18    98.08   Basic Arabic
+     528       16    96.97   Arabic Extended
       11       11     0.00   General Punctuation
-    1808       61    96.63   Total
+    1808       66    96.35   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3180   Characters
-      98   Errors
-   96.92%  Accuracy
+      94   Errors
+   97.04%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.92%  Accuracy After Correction
+   97.04%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      34       41       23       98   Unmarked
-      34       41       23       98   Total
+      34       42       18       94   Unmarked
+      34       42       18       94   Total
 
    Count   Missed   %Right
      469        1    99.79   ASCII Spacing Characters
       60        8    86.67   ASCII Special Symbols
       61        1    98.36   ASCII Digits
-    1579       29    98.16   Basic Arabic
-     996       21    97.89   Arabic Extended
+    1579       31    98.04   Basic Arabic
+     996       20    97.99   Arabic Extended
       15       15     0.00   General Punctuation
-    3180       75    97.64   Total
+    3180       76    97.61   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2616   Characters
-      83   Errors
-   96.83%  Accuracy
+      78   Errors
+   97.02%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.83%  Accuracy After Correction
+   97.02%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      29       29       25       83   Unmarked
-      29       29       25       83   Total
+      27       25       26       78   Unmarked
+      27       25       26       78   Total
 
    Count   Missed   %Right
-     420        1    99.76   ASCII Spacing Characters
-      61       11    81.97   ASCII Special Symbols
+     420        0   100.00   ASCII Spacing Characters
+      61       10    83.61   ASCII Special Symbols
       59        4    93.22   ASCII Digits
        4        2    50.00   Latin1 Special Symbols
     1251       16    98.72   Basic Arabic
-     810       13    98.40   Arabic Extended
+     810        9    98.89   Arabic Extended
       11       11     0.00   General Punctuation
-    2616       58    97.78   Total
+    2616       52    98.01   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     4574   Characters
-     209   Errors
-   95.43%  Accuracy
+     210   Errors
+   95.41%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   95.43%  Accuracy After Correction
+   95.41%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      44      109       56      209   Unmarked
-      44      109       56      209   Total
+      43      112       55      210   Unmarked
+      43      112       55      210   Total
 
    Count   Missed   %Right
      672        7    98.96   ASCII Spacing Characters
-      98       36    63.27   ASCII Special Symbols
+      98       35    64.29   ASCII Special Symbols
       46        0   100.00   ASCII Digits
       10       10     0.00   Latin1 Special Symbols
-    2257       44    98.05   Basic Arabic
-    1472       37    97.49   Arabic Extended
+    2257       46    97.96   Basic Arabic
+    1472       38    97.42   Arabic Extended
       19       19     0.00   General Punctuation
-    4574      153    96.66   Total
+    4574      155    96.61   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1668   Characters
-      39   Errors
-   97.66%  Accuracy
+      42   Errors
+   97.48%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.66%  Accuracy After Correction
+   97.48%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      18       13        8       39   Unmarked
-      18       13        8       39   Total
+      17       16        9       42   Unmarked
+      17       16        9       42   Total
 
    Count   Missed   %Right
      254        2    99.21   ASCII Spacing Characters
       42        4    90.48   ASCII Special Symbols
       20        1    95.00   ASCII Digits
        2        2     0.00   Latin1 Special Symbols
-     839        4    99.52   Basic Arabic
-     509       16    96.86   Arabic Extended
+     839        5    99.40   Basic Arabic
+     509       17    96.66   Arabic Extended
        2        2     0.00   General Punctuation
-    1668       31    98.14   Total
+    1668       33    98.02   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     5126   Characters
-     138   Errors
-   97.31%  Accuracy
+     142   Errors
+   97.23%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.31%  Accuracy After Correction
+   97.23%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      51       46       41      138   Unmarked
-      51       46       41      138   Total
+      51       49       42      142   Unmarked
+      51       49       42      142   Total
 
    Count   Missed   %Right
      752        1    99.87   ASCII Spacing Characters
-     110       26    76.36   ASCII Special Symbols
+     110       27    75.45   ASCII Special Symbols
       44        0   100.00   ASCII Digits
-    2513       23    99.08   Basic Arabic
-    1687       27    98.40   Arabic Extended
+    2513       24    99.04   Basic Arabic
+    1687       28    98.34   Arabic Extended
       20       20     0.00   General Punctuation
-    5126       97    98.11   Total
+    5126      100    98.05   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3658   Characters
@@ -1412,38 +631,38 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      18       24       29       71   Unmarked
-      18       24       29       71   Total
+      18       22       31       71   Unmarked
+      18       22       31       71   Total
 
    Count   Missed   %Right
      558        0   100.00   ASCII Spacing Characters
       88       14    84.09   ASCII Special Symbols
       67        0   100.00   ASCII Digits
-    1721       10    99.42   Basic Arabic
+    1721        8    99.54   Basic Arabic
     1217       11    99.10   Arabic Extended
        7        7     0.00   General Punctuation
-    3658       42    98.85   Total
+    3658       40    98.91   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     4236   Characters
-     175   Errors
-   95.87%  Accuracy
+     164   Errors
+   96.13%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   95.87%  Accuracy After Correction
+   96.13%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      99       31       45      175   Unmarked
-      99       31       45      175   Total
+      98       22       44      164   Unmarked
+      98       22       44      164   Total
 
    Count   Missed   %Right
      648       19    97.07   ASCII Spacing Characters
@@ -1451,77 +670,180 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
       20        0   100.00   ASCII Digits
        1        1     0.00   Latin1 Spacing Characters
        1        0   100.00   Latin1 Special Symbols
-    2120       43    97.97   Basic Arabic
+    2120       33    98.44   Basic Arabic
     1367       51    96.27   Arabic Extended
        6        6     0.00   General Punctuation
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2211   Characters
-      37   Errors
-   98.33%  Accuracy
+      39   Errors
+   98.24%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.33%  Accuracy After Correction
+   98.24%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      11       15       11       37   Unmarked
-      11       15       11       37   Total
+       9       19       11       39   Unmarked
+       9       19       11       39   Total
 
    Count   Missed   %Right
      328        2    99.39   ASCII Spacing Characters
       30       10    66.67   ASCII Special Symbols
        5        0   100.00   ASCII Digits
-    1107        3    99.73   Basic Arabic
-     737        7    99.05   Arabic Extended
+    1107        4    99.64   Basic Arabic
+     737        8    98.91   Arabic Extended
        4        4     0.00   General Punctuation
-    2211       26    98.82   Total
+    2211       28    98.73   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2428   Characters
-      71   Errors
-   97.08%  Accuracy
+      72   Errors
+   97.03%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.08%  Accuracy After Correction
+   97.03%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      29       15       27       71   Unmarked
-      29       15       27       71   Total
+      28       15       29       72   Unmarked
+      28       15       29       72   Total
 
    Count   Missed   %Right
      346        2    99.42   ASCII Spacing Characters
       30        4    86.67   ASCII Special Symbols
       20        0   100.00   ASCII Digits
        2        2     0.00   Latin1 Special Symbols
-    1177       16    98.64   Basic Arabic
+    1177       15    98.73   Basic Arabic
      849       16    98.12   Arabic Extended
        4        4     0.00   General Punctuation
-    2428       44    98.19   Total
+    2428       43    98.23   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_2.015_93076_163700
+------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_1.661_152089_296500
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2523   Characters
-      80   Errors
+      85   Errors
+   96.63%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.63%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       9       40       36       85   Unmarked
+       9       40       36       85   Total
+
+   Count   Missed   %Right
+     385        1    99.74   ASCII Spacing Characters
+      29        6    79.31   ASCII Special Symbols
+       4        0   100.00   ASCII Digits
+    1231       17    98.62   Basic Arabic
+     872       23    97.36   Arabic Extended
+       2        2     0.00   General Punctuation
+    2523       49    98.06   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_1.661_152089_296500
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2370   Characters
+      92   Errors
+   96.12%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.12%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      38       29       25       92   Unmarked
+      38       29       25       92   Total
+
+   Count   Missed   %Right
+     364        7    98.08   ASCII Spacing Characters
+      52       20    61.54   ASCII Special Symbols
+      25        2    92.00   ASCII Digits
+       1        1     0.00   Latin1 Special Symbols
+    1197       18    98.50   Basic Arabic
+     729       17    97.67   Arabic Extended
+       2        2     0.00   General Punctuation
+    2370       67    97.17   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_1.661_152089_296500
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2243   Characters
+      77   Errors
+   96.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       42       20       77   Unmarked
+      15       42       20       77   Total
+
+   Count   Missed   %Right
+     353        2    99.43   ASCII Spacing Characters
+      50       20    60.00   ASCII Special Symbols
+      28        0   100.00   ASCII Digits
+    1073       14    98.70   Basic Arabic
+     735       17    97.69   Arabic Extended
+       4        4     0.00   General Punctuation
+    2243       57    97.46   Total
+
+
+-----------------------------------------------------------------------------
+accuracy: text stream is too long
+
+-----------------------------------------------------------------------------
+
+*************************************************************************
+data/ckb/tessdata_fast/ckbLayer_1.748_133226_252900.traineddata
+ckbLayer_1.748_133226_252900.traineddata
+ckbLayer_1.748_133226_252900
+
+***** Arabic *****   ckbLayer_1.748_133226_252900  
+
+
+----------------------------------------------------------------------------- ckb
+
+------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2649   Characters
+      84   Errors
    96.83%  Accuracy
 
        0   Reject Characters
@@ -1532,155 +854,52 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      10       35       35       80   Unmarked
-      10       35       35       80   Total
-
-   Count   Missed   %Right
-     385        1    99.74   ASCII Spacing Characters
-      29        6    79.31   ASCII Special Symbols
-       4        0   100.00   ASCII Digits
-    1231       18    98.54   Basic Arabic
-     872       18    97.94   Arabic Extended
-       2        2     0.00   General Punctuation
-    2523       45    98.22   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_2.015_93076_163700
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2370   Characters
-      93   Errors
-   96.08%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.08%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      38       30       25       93   Unmarked
-      38       30       25       93   Total
-
-   Count   Missed   %Right
-     364        7    98.08   ASCII Spacing Characters
-      52       21    59.62   ASCII Special Symbols
-      25        2    92.00   ASCII Digits
-       1        1     0.00   Latin1 Special Symbols
-    1197       17    98.58   Basic Arabic
-     729       18    97.53   Arabic Extended
-       2        2     0.00   General Punctuation
-    2370       68    97.13   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_2.015_93076_163700
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2243   Characters
-      86   Errors
-   96.17%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.17%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      15       49       22       86   Unmarked
-      15       49       22       86   Total
-
-   Count   Missed   %Right
-     353        2    99.43   ASCII Spacing Characters
-      50       21    58.00   ASCII Special Symbols
-      28        0   100.00   ASCII Digits
-    1073       17    98.42   Basic Arabic
-     735       20    97.28   Arabic Extended
-       4        4     0.00   General Punctuation
-    2243       64    97.15   Total
-
-
------------------------------------------------------------------------------
-accuracy: text stream is too long
-
------------------------------------------------------------------------------
-
-*************************************************************************
-data/ckb/tessdata_fast/ckbLayer_2.125_93030_163600.traineddata
-ckbLayer_2.125_93030_163600.traineddata
-ckbLayer_2.125_93030_163600
-
-******************************************************************* Arabic *****   ckbLayer_2.125_93030_163600  
-
-
------------------------------------------------------------------------------ ckb
-
-------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_2.125_93030_163600
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2649   Characters
-      86   Errors
-   96.75%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.75%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      57       16       13       86   Unmarked
-      57       16       13       86   Total
+      57       15       12       84   Unmarked
+      57       15       12       84   Total
 
    Count   Missed   %Right
      367        0   100.00   ASCII Spacing Characters
       22        5    77.27   ASCII Special Symbols
       10        0   100.00   ASCII Digits
-    1287        7    99.46   Basic Arabic
-     954       52    94.55   Arabic Extended
+    1287        8    99.38   Basic Arabic
+     954       50    94.76   Arabic Extended
        9        9     0.00   General Punctuation
-    2649       73    97.24   Total
+    2649       72    97.28   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_1.748_133226_252900
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3246   Characters
-     136   Errors
-   95.81%  Accuracy
+     178   Errors
+   94.52%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   95.81%  Accuracy After Correction
+   94.52%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      48       63       25      136   Unmarked
-      48       63       25      136   Total
+      82       67       29      178   Unmarked
+      82       67       29      178   Total
 
    Count   Missed   %Right
      449        4    99.11   ASCII Spacing Characters
-      87       26    70.11   ASCII Special Symbols
-    1689       36    97.87   Basic Arabic
-    1009       33    96.73   Arabic Extended
+      87       59    32.18   ASCII Special Symbols
+    1689       37    97.81   Basic Arabic
+    1009       37    96.33   Arabic Extended
       12       12     0.00   General Punctuation
-    3246      111    96.58   Total
+    3246      149    95.41   Total
 
   Errors   Marked   Correct-Generated
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_1.748_133226_252900
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2171   Characters
@@ -1695,22 +914,815 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      20       25       25       70   Unmarked
-      20       25       25       70   Total
+      19       27       24       70   Unmarked
+      19       27       24       70   Total
 
    Count   Missed   %Right
      336        0   100.00   ASCII Spacing Characters
       48        8    83.33   ASCII Special Symbols
       40        0   100.00   ASCII Digits
-    1066       23    97.84   Basic Arabic
-     677       10    98.52   Arabic Extended
+    1066       22    97.94   Basic Arabic
+     677       12    98.23   Arabic Extended
        4        4     0.00   General Punctuation
-    2171       45    97.93   Total
+    2171       46    97.88   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2613   Characters
+      59   Errors
+   97.74%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.74%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      11       30       18       59   Unmarked
+      11       30       18       59   Total
+
+   Count   Missed   %Right
+     398        0   100.00   ASCII Spacing Characters
+      36        7    80.56   ASCII Special Symbols
+      29        0   100.00   ASCII Digits
+       5        5     0.00   Latin1 Special Symbols
+    1286       11    99.14   Basic Arabic
+     854       13    98.48   Arabic Extended
+       5        5     0.00   General Punctuation
+    2613       41    98.43   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2260   Characters
+     114   Errors
+   94.96%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.96%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      63       24       27      114   Unmarked
+      63       24       27      114   Total
+
+   Count   Missed   %Right
+     348        6    98.28   ASCII Spacing Characters
+      54        8    85.19   ASCII Special Symbols
+      43        3    93.02   ASCII Digits
+    1140       45    96.05   Basic Arabic
+     674       24    96.44   Arabic Extended
+       1        1     0.00   General Punctuation
+    2260       87    96.15   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2106   Characters
+     163   Errors
+   92.26%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.26%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      77       64       22      163   Unmarked
+      77       64       22      163   Total
+
+   Count   Missed   %Right
+     307        9    97.07   ASCII Spacing Characters
+      37       16    56.76   ASCII Special Symbols
+      22        0   100.00   ASCII Digits
+    1036       78    92.47   Basic Arabic
+     698       32    95.42   Arabic Extended
+       6        6     0.00   General Punctuation
+    2106      141    93.30   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2398   Characters
+      46   Errors
+   98.08%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.08%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      11       23       12       46   Unmarked
+      11       23       12       46   Total
+
+   Count   Missed   %Right
+     365        0   100.00   ASCII Spacing Characters
+      38       10    73.68   ASCII Special Symbols
+      16        0   100.00   ASCII Digits
+    1257       15    98.81   Basic Arabic
+     717        4    99.44   Arabic Extended
+       5        5     0.00   General Punctuation
+    2398       34    98.58   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2076   Characters
+     162   Errors
+   92.20%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.20%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      51       89       22      162   Unmarked
+      51       89       22      162   Total
+
+   Count   Missed   %Right
+     288        0   100.00   ASCII Spacing Characters
+      20        5    75.00   ASCII Special Symbols
+      10        0   100.00   ASCII Digits
+       1        0   100.00   Latin1 Special Symbols
+    1080       80    92.59   Basic Arabic
+     668       46    93.11   Arabic Extended
+       9        9     0.00   General Punctuation
+    2076      140    93.26   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1946   Characters
+      35   Errors
+   98.20%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.20%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       7       15       13       35   Unmarked
+       7       15       13       35   Total
+
+   Count   Missed   %Right
+     280        1    99.64   ASCII Spacing Characters
+      20        1    95.00   ASCII Special Symbols
+       5        0   100.00   ASCII Digits
+     995        9    99.10   Basic Arabic
+     646       11    98.30   Arabic Extended
+    1946       22    98.87   Total
+
+  Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    5823   Characters
+     129   Errors
+   97.78%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.78%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      24       51       54      129   Unmarked
+      24       51       54      129   Total
+
+   Count   Missed   %Right
+     874        0   100.00   ASCII Spacing Characters
+      71       11    84.51   ASCII Special Symbols
+      55        1    98.18   ASCII Digits
+      11       10     9.09   Latin1 Special Symbols
+    2950       22    99.25   Basic Arabic
+    1853       22    98.81   Arabic Extended
+       9        9     0.00   General Punctuation
+    5823       75    98.71   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2714   Characters
+      48   Errors
+   98.23%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.23%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       21       12       48   Unmarked
+      15       21       12       48   Total
+
+   Count   Missed   %Right
+     386        1    99.74   ASCII Spacing Characters
+      28        8    71.43   ASCII Special Symbols
+       1        0   100.00   ASCII Digits
+    1329        5    99.62   Basic Arabic
+     962       14    98.54   Arabic Extended
+       8        8     0.00   General Punctuation
+    2714       36    98.67   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2522   Characters
+      66   Errors
+   97.38%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.38%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      17       26       23       66   Unmarked
+      17       26       23       66   Total
+
+   Count   Missed   %Right
+     413        1    99.76   ASCII Spacing Characters
+      56       10    82.14   ASCII Special Symbols
+      72        4    94.44   ASCII Digits
+       2        2     0.00   Latin1 Special Symbols
+    1251        8    99.36   Basic Arabic
+     723       13    98.20   Arabic Extended
+       5        5     0.00   General Punctuation
+    2522       43    98.30   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2689   Characters
+      75   Errors
+   97.21%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.21%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      23       34       18       75   Unmarked
+      23       34       18       75   Total
+
+   Count   Missed   %Right
+     382        2    99.48   ASCII Spacing Characters
+      41        6    85.37   ASCII Special Symbols
+      30        0   100.00   ASCII Digits
+    1346       17    98.74   Basic Arabic
+     879       21    97.61   Arabic Extended
+      11       11     0.00   General Punctuation
+    2689       57    97.88   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1808   Characters
+      74   Errors
+   95.91%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.91%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      26       37       11       74   Unmarked
+      26       37       11       74   Total
+
+   Count   Missed   %Right
+     281        2    99.29   ASCII Spacing Characters
+      39       19    51.28   ASCII Special Symbols
+      10        0   100.00   ASCII Digits
+     939       16    98.30   Basic Arabic
+     528       15    97.16   Arabic Extended
+      11       11     0.00   General Punctuation
+    1808       63    96.52   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    3180   Characters
+      97   Errors
+   96.95%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.95%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      32       43       22       97   Unmarked
+      32       43       22       97   Total
+
+   Count   Missed   %Right
+     469        1    99.79   ASCII Spacing Characters
+      60        7    88.33   ASCII Special Symbols
+      61        1    98.36   ASCII Digits
+    1579       29    98.16   Basic Arabic
+     996       22    97.79   Arabic Extended
+      15       15     0.00   General Punctuation
+    3180       75    97.64   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2616   Characters
+      82   Errors
+   96.87%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.87%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      29       28       25       82   Unmarked
+      29       28       25       82   Total
+
+   Count   Missed   %Right
+     420        0   100.00   ASCII Spacing Characters
+      61       10    83.61   ASCII Special Symbols
+      59        4    93.22   ASCII Digits
+       4        2    50.00   Latin1 Special Symbols
+    1251       14    98.88   Basic Arabic
+     810       16    98.02   Arabic Extended
+      11       11     0.00   General Punctuation
+    2616       57    97.82   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    4574   Characters
+     209   Errors
+   95.43%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.43%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      43      110       56      209   Unmarked
+      43      110       56      209   Total
+
+   Count   Missed   %Right
+     672        7    98.96   ASCII Spacing Characters
+      98       34    65.31   ASCII Special Symbols
+      46        0   100.00   ASCII Digits
+      10       10     0.00   Latin1 Special Symbols
+    2257       45    98.01   Basic Arabic
+    1472       38    97.42   Arabic Extended
+      19       19     0.00   General Punctuation
+    4574      153    96.66   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1668   Characters
+      36   Errors
+   97.84%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.84%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       15        6       36   Unmarked
+      15       15        6       36   Total
+
+   Count   Missed   %Right
+     254        2    99.21   ASCII Spacing Characters
+      42        4    90.48   ASCII Special Symbols
+      20        1    95.00   ASCII Digits
+       2        2     0.00   Latin1 Special Symbols
+     839        2    99.76   Basic Arabic
+     509       17    96.66   Arabic Extended
+       2        2     0.00   General Punctuation
+    1668       30    98.20   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    5126   Characters
+     138   Errors
+   97.31%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.31%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      51       45       42      138   Unmarked
+      51       45       42      138   Total
+
+   Count   Missed   %Right
+     752        1    99.87   ASCII Spacing Characters
+     110       25    77.27   ASCII Special Symbols
+      44        0   100.00   ASCII Digits
+    2513       22    99.12   Basic Arabic
+    1687       28    98.34   Arabic Extended
+      20       20     0.00   General Punctuation
+    5126       96    98.13   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    3658   Characters
+      73   Errors
+   98.00%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.00%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      19       26       28       73   Unmarked
+      19       26       28       73   Total
+
+   Count   Missed   %Right
+     558        0   100.00   ASCII Spacing Characters
+      88       14    84.09   ASCII Special Symbols
+      67        0   100.00   ASCII Digits
+    1721        8    99.54   Basic Arabic
+    1217       16    98.69   Arabic Extended
+       7        7     0.00   General Punctuation
+    3658       45    98.77   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    4236   Characters
+     171   Errors
+   95.96%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.96%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      97       29       45      171   Unmarked
+      97       29       45      171   Total
+
+   Count   Missed   %Right
+     648       20    96.91   ASCII Spacing Characters
+      73       10    86.30   ASCII Special Symbols
+      20        0   100.00   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+       1        0   100.00   Latin1 Special Symbols
+    2120       38    98.21   Basic Arabic
+    1367       51    96.27   Arabic Extended
+       6        6     0.00   General Punctuation
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2211   Characters
+      41   Errors
+   98.15%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.15%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       7       21       13       41   Unmarked
+       7       21       13       41   Total
+
+   Count   Missed   %Right
+     328        1    99.70   ASCII Spacing Characters
+      30       10    66.67   ASCII Special Symbols
+       5        0   100.00   ASCII Digits
+    1107        5    99.55   Basic Arabic
+     737        8    98.91   Arabic Extended
+       4        4     0.00   General Punctuation
+    2211       28    98.73   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2428   Characters
+      67   Errors
+   97.24%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.24%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      28       10       29       67   Unmarked
+      28       10       29       67   Total
+
+   Count   Missed   %Right
+     346        2    99.42   ASCII Spacing Characters
+      30        4    86.67   ASCII Special Symbols
+      20        0   100.00   ASCII Digits
+       2        2     0.00   Latin1 Special Symbols
+    1177       14    98.81   Basic Arabic
+     849       12    98.59   Arabic Extended
+       4        4     0.00   General Punctuation
+    2428       38    98.43   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2523   Characters
+      81   Errors
+   96.79%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.79%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      10       37       34       81   Unmarked
+      10       37       34       81   Total
+
+   Count   Missed   %Right
+     385        1    99.74   ASCII Spacing Characters
+      29        6    79.31   ASCII Special Symbols
+       4        0   100.00   ASCII Digits
+    1231       16    98.70   Basic Arabic
+     872       22    97.48   Arabic Extended
+       2        2     0.00   General Punctuation
+    2523       47    98.14   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2370   Characters
+      91   Errors
+   96.16%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.16%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      35       32       24       91   Unmarked
+      35       32       24       91   Total
+
+   Count   Missed   %Right
+     364        7    98.08   ASCII Spacing Characters
+      52       19    63.46   ASCII Special Symbols
+      25        2    92.00   ASCII Digits
+       1        1     0.00   Latin1 Special Symbols
+    1197       18    98.50   Basic Arabic
+     729       18    97.53   Arabic Extended
+       2        2     0.00   General Punctuation
+    2370       67    97.17   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_1.748_133226_252900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2243   Characters
+      79   Errors
+   96.48%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.48%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      15       41       23       79   Unmarked
+      15       41       23       79   Total
+
+   Count   Missed   %Right
+     353        2    99.43   ASCII Spacing Characters
+      50       21    58.00   ASCII Special Symbols
+      28        0   100.00   ASCII Digits
+    1073       14    98.70   Basic Arabic
+     735       15    97.96   Arabic Extended
+       4        4     0.00   General Punctuation
+    2243       56    97.50   Total
+
+
+-----------------------------------------------------------------------------
+accuracy: text stream is too long
+
+-----------------------------------------------------------------------------
+
+*************************************************************************
+data/ckb/tessdata_fast/ckbLayer_1.811_133193_252800.traineddata
+ckbLayer_1.811_133193_252800.traineddata
+ckbLayer_1.811_133193_252800
+
+***** Arabic *****   ckbLayer_1.811_133193_252800  
+
+
+----------------------------------------------------------------------------- ckb
+
+------------------------------------------------------------------- Arabic ckb-Abd_Akre-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2649   Characters
+      85   Errors
+   96.79%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.79%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      58       14       13       85   Unmarked
+      58       14       13       85   Total
+
+   Count   Missed   %Right
+     367        0   100.00   ASCII Spacing Characters
+      22        5    77.27   ASCII Special Symbols
+      10        0   100.00   ASCII Digits
+    1287        8    99.38   Basic Arabic
+     954       50    94.76   Arabic Extended
+       9        9     0.00   General Punctuation
+    2649       72    97.28   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Abd_Gare-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    3246   Characters
+     174   Errors
+   94.64%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.64%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      85       62       27      174   Unmarked
+      85       62       27      174   Total
+
+   Count   Missed   %Right
+     449        4    99.11   ASCII Spacing Characters
+      87       62    28.74   ASCII Special Symbols
+    1689       36    97.87   Basic Arabic
+    1009       33    96.73   Arabic Extended
+      12       12     0.00   General Punctuation
+    3246      147    95.47   Total
+
+  Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Abd_Halabja_OLD-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2171   Characters
+      72   Errors
+   96.68%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.68%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      21       26       25       72   Unmarked
+      21       26       25       72   Total
+
+   Count   Missed   %Right
+     336        1    99.70   ASCII Spacing Characters
+      48        8    83.33   ASCII Special Symbols
+      40        0   100.00   ASCII Digits
+    1066       23    97.84   Basic Arabic
+     677       11    98.38   Arabic Extended
+       4        4     0.00   General Punctuation
+    2171       47    97.84   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Abd_Hewler-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2613   Characters
@@ -1730,243 +1742,243 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
    Count   Missed   %Right
      398        0   100.00   ASCII Spacing Characters
-      36        7    80.56   ASCII Special Symbols
+      36        8    77.78   ASCII Special Symbols
       29        0   100.00   ASCII Digits
        5        5     0.00   Latin1 Special Symbols
-    1286       13    98.99   Basic Arabic
+    1286       12    99.07   Basic Arabic
      854       11    98.71   Arabic Extended
        5        5     0.00   General Punctuation
     2613       41    98.43   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Abd_Metin_Bold,-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2260   Characters
-     119   Errors
-   94.73%  Accuracy
+     114   Errors
+   94.96%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   94.73%  Accuracy After Correction
+   94.96%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      63       27       29      119   Unmarked
-      63       27       29      119   Total
+      63       25       26      114   Unmarked
+      63       25       26      114   Total
 
    Count   Missed   %Right
      348        6    98.28   ASCII Spacing Characters
-      54        9    83.33   ASCII Special Symbols
+      54        8    85.19   ASCII Special Symbols
       43        3    93.02   ASCII Digits
-    1140       46    95.96   Basic Arabic
+    1140       45    96.05   Basic Arabic
      674       25    96.29   Arabic Extended
        1        1     0.00   General Punctuation
-    2260       90    96.02   Total
+    2260       88    96.11   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Abd_Umed-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2106   Characters
-     163   Errors
-   92.26%  Accuracy
+     164   Errors
+   92.21%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   92.26%  Accuracy After Correction
+   92.21%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      78       63       22      163   Unmarked
-      78       63       22      163   Total
+      79       61       24      164   Unmarked
+      79       61       24      164   Total
 
    Count   Missed   %Right
      307        8    97.39   ASCII Spacing Characters
       37       16    56.76   ASCII Special Symbols
       22        0   100.00   ASCII Digits
-    1036       79    92.37   Basic Arabic
+    1036       78    92.47   Basic Arabic
      698       32    95.42   Arabic Extended
        6        6     0.00   General Punctuation
-    2106      141    93.30   Total
+    2106      140    93.35   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Adobe_Arabic_Bold-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2398   Characters
-      47   Errors
-   98.04%  Accuracy
+      44   Errors
+   98.17%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.04%  Accuracy After Correction
+   98.17%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      14       19       14       47   Unmarked
-      14       19       14       47   Total
+      13       19       12       44   Unmarked
+      13       19       12       44   Total
 
    Count   Missed   %Right
      365        1    99.73   ASCII Spacing Characters
       38       10    73.68   ASCII Special Symbols
       16        0   100.00   ASCII Digits
-    1257       14    98.89   Basic Arabic
-     717        3    99.58   Arabic Extended
+    1257       12    99.05   Basic Arabic
+     717        4    99.44   Arabic Extended
        5        5     0.00   General Punctuation
-    2398       33    98.62   Total
+    2398       32    98.67   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Arabic_Typesetting-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2076   Characters
-     190   Errors
-   90.85%  Accuracy
+     169   Errors
+   91.86%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   90.85%  Accuracy After Correction
+   91.86%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      74      101       15      190   Unmarked
-      74      101       15      190   Total
+      61       85       23      169   Unmarked
+      61       85       23      169   Total
 
    Count   Missed   %Right
      288        0   100.00   ASCII Spacing Characters
       20        5    75.00   ASCII Special Symbols
       10        0   100.00   ASCII Digits
        1        0   100.00   Latin1 Special Symbols
-    1080      104    90.37   Basic Arabic
-     668       57    91.47   Arabic Extended
+    1080       78    92.78   Basic Arabic
+     668       54    91.92   Arabic Extended
        9        9     0.00   General Punctuation
-    2076      175    91.57   Total
+    2076      146    92.97   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Arial-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1946   Characters
-      32   Errors
-   98.36%  Accuracy
+      35   Errors
+   98.20%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.36%  Accuracy After Correction
+   98.20%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-       8       10       14       32   Unmarked
-       8       10       14       32   Total
+       8       12       15       35   Unmarked
+       8       12       15       35   Total
 
    Count   Missed   %Right
      280        1    99.64   ASCII Spacing Characters
       20        0   100.00   ASCII Special Symbols
        5        0   100.00   ASCII Digits
-     995        6    99.40   Basic Arabic
+     995        8    99.20   Basic Arabic
      646       11    98.30   Arabic Extended
-    1946       18    99.08   Total
+    1946       20    98.97   Total
 
   Errors   Marked   Correct-Generated
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Arial_Bold-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     5823   Characters
-     128   Errors
-   97.80%  Accuracy
+     132   Errors
+   97.73%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.80%  Accuracy After Correction
+   97.73%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      24       52       52      128   Unmarked
-      24       52       52      128   Total
+      25       54       53      132   Unmarked
+      25       54       53      132   Total
 
    Count   Missed   %Right
      874        0   100.00   ASCII Spacing Characters
       71       11    84.51   ASCII Special Symbols
       55        1    98.18   ASCII Digits
       11       10     9.09   Latin1 Special Symbols
-    2950       22    99.25   Basic Arabic
-    1853       23    98.76   Arabic Extended
+    2950       28    99.05   Basic Arabic
+    1853       20    98.92   Arabic Extended
        9        9     0.00   General Punctuation
-    5823       76    98.69   Total
+    5823       79    98.64   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-NRT_Bold,-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2714   Characters
-      45   Errors
-   98.34%  Accuracy
+      46   Errors
+   98.31%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.34%  Accuracy After Correction
+   98.31%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      15       17       13       45   Unmarked
-      15       17       13       45   Total
+      15       18       13       46   Unmarked
+      15       18       13       46   Total
 
    Count   Missed   %Right
      386        1    99.74   ASCII Spacing Characters
       28        8    71.43   ASCII Special Symbols
        1        0   100.00   ASCII Digits
-    1329        6    99.55   Basic Arabic
-     962        9    99.06   Arabic Extended
+    1329        5    99.62   Basic Arabic
+     962       11    98.86   Arabic Extended
        8        8     0.00   General Punctuation
-    2714       32    98.82   Total
+    2714       33    98.78   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-NRT_Reg-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2522   Characters
-      64   Errors
-   97.46%  Accuracy
+      65   Errors
+   97.42%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.46%  Accuracy After Correction
+   97.42%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      17       24       23       64   Unmarked
-      17       24       23       64   Total
+      17       25       23       65   Unmarked
+      17       25       23       65   Total
 
    Count   Missed   %Right
      413        1    99.76   ASCII Spacing Characters
@@ -1974,257 +1986,377 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
       72        4    94.44   ASCII Digits
        2        2     0.00   Latin1 Special Symbols
     1251        8    99.36   Basic Arabic
-     723       11    98.48   Arabic Extended
+     723       12    98.34   Arabic Extended
        5        5     0.00   General Punctuation
-    2522       41    98.37   Total
+    2522       42    98.33   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Peshang_Des_1,-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2689   Characters
-      68   Errors
-   97.47%  Accuracy
+      67   Errors
+   97.51%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.47%  Accuracy After Correction
+   97.51%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      23       31       14       68   Unmarked
-      23       31       14       68   Total
+      23       27       17       67   Unmarked
+      23       27       17       67   Total
 
    Count   Missed   %Right
      382        2    99.48   ASCII Spacing Characters
       41        6    85.37   ASCII Special Symbols
       30        0   100.00   ASCII Digits
-    1346       15    98.89   Basic Arabic
-     879       20    97.72   Arabic Extended
+    1346       14    98.96   Basic Arabic
+     879       17    98.07   Arabic Extended
       11       11     0.00   General Punctuation
-    2689       54    97.99   Total
+    2689       50    98.14   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-RudawRegular-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1808   Characters
-      68   Errors
-   96.24%  Accuracy
+      69   Errors
+   96.18%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.24%  Accuracy After Correction
+   96.18%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      26       31       11       68   Unmarked
-      26       31       11       68   Total
+      26       32       11       69   Unmarked
+      26       32       11       69   Total
 
    Count   Missed   %Right
      281        2    99.29   ASCII Spacing Characters
       39       19    51.28   ASCII Special Symbols
       10        0   100.00   ASCII Digits
-     939       11    98.83   Basic Arabic
+     939       12    98.72   Basic Arabic
      528       14    97.35   Arabic Extended
       11       11     0.00   General Punctuation
-    1808       57    96.85   Total
+    1808       58    96.79   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Sarchia_Banoka_1-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3180   Characters
-      99   Errors
-   96.89%  Accuracy
+      89   Errors
+   97.20%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.89%  Accuracy After Correction
+   97.20%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      33       44       22       99   Unmarked
-      33       44       22       99   Total
+      34       36       19       89   Unmarked
+      34       36       19       89   Total
 
    Count   Missed   %Right
      469        1    99.79   ASCII Spacing Characters
-      60        9    85.00   ASCII Special Symbols
+      60        8    86.67   ASCII Special Symbols
       61        1    98.36   ASCII Digits
-    1579       30    98.10   Basic Arabic
-     996       21    97.89   Arabic Extended
+    1579       22    98.61   Basic Arabic
+     996       23    97.69   Arabic Extended
       15       15     0.00   General Punctuation
-    3180       77    97.58   Total
+    3180       70    97.80   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Segoe_UI-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2616   Characters
-      81   Errors
-   96.90%  Accuracy
+      78   Errors
+   97.02%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.90%  Accuracy After Correction
+   97.02%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      31       24       26       81   Unmarked
-      31       24       26       81   Total
+      30       23       25       78   Unmarked
+      30       23       25       78   Total
 
    Count   Missed   %Right
      420        0   100.00   ASCII Spacing Characters
-      61       11    81.97   ASCII Special Symbols
+      61       10    83.61   ASCII Special Symbols
       59        4    93.22   ASCII Digits
        4        2    50.00   Latin1 Special Symbols
     1251       14    98.88   Basic Arabic
-     810       13    98.40   Arabic Extended
+     810       12    98.52   Arabic Extended
       11       11     0.00   General Punctuation
-    2616       55    97.90   Total
+    2616       53    97.97   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Segoe_UI_Bold-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     4574   Characters
-     207   Errors
-   95.47%  Accuracy
+     205   Errors
+   95.52%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   95.47%  Accuracy After Correction
+   95.52%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      44      108       55      207   Unmarked
-      44      108       55      207   Total
+      43      106       56      205   Unmarked
+      43      106       56      205   Total
 
    Count   Missed   %Right
      672        7    98.96   ASCII Spacing Characters
-      98       36    63.27   ASCII Special Symbols
+      98       34    65.31   ASCII Special Symbols
       46        0   100.00   ASCII Digits
       10       10     0.00   Latin1 Special Symbols
-    2257       43    98.09   Basic Arabic
+    2257       42    98.14   Basic Arabic
     1472       37    97.49   Arabic Extended
       19       19     0.00   General Punctuation
-    4574      152    96.68   Total
+    4574      149    96.74   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Speda-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     1668   Characters
-      48   Errors
-   97.12%  Accuracy
+      37   Errors
+   97.78%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.12%  Accuracy After Correction
+   97.78%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      17       20       11       48   Unmarked
-      17       20       11       48   Total
+      16       15        6       37   Unmarked
+      16       15        6       37   Total
 
    Count   Missed   %Right
      254        2    99.21   ASCII Spacing Characters
-      42        6    85.71   ASCII Special Symbols
+      42        4    90.48   ASCII Special Symbols
       20        1    95.00   ASCII Digits
        2        2     0.00   Latin1 Special Symbols
-     839        6    99.28   Basic Arabic
-     509       18    96.46   Arabic Extended
+     839        3    99.64   Basic Arabic
+     509       17    96.66   Arabic Extended
        2        2     0.00   General Punctuation
-    1668       37    97.78   Total
+    1668       31    98.14   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Speda_Bold-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     5126   Characters
-     140   Errors
-   97.27%  Accuracy
+     138   Errors
+   97.31%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   97.27%  Accuracy After Correction
+   97.31%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      52       46       42      140   Unmarked
-      52       46       42      140   Total
+      51       44       43      138   Unmarked
+      51       44       43      138   Total
 
    Count   Missed   %Right
      752        1    99.87   ASCII Spacing Characters
-     110       27    75.45   ASCII Special Symbols
+     110       26    76.36   ASCII Special Symbols
       44        0   100.00   ASCII Digits
-    2513       23    99.08   Basic Arabic
-    1687       27    98.40   Arabic Extended
+    2513       20    99.20   Basic Arabic
+    1687       28    98.34   Arabic Extended
       20       20     0.00   General Punctuation
-    5126       98    98.09   Total
+    5126       95    98.15   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Tahoma-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     3658   Characters
-      71   Errors
-   98.06%  Accuracy
+      68   Errors
+   98.14%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   98.06%  Accuracy After Correction
+   98.14%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      18       24       29       71   Unmarked
-      18       24       29       71   Total
+      19       20       29       68   Unmarked
+      19       20       29       68   Total
 
    Count   Missed   %Right
      558        0   100.00   ASCII Spacing Characters
       88       14    84.09   ASCII Special Symbols
       67        0   100.00   ASCII Digits
     1721        9    99.48   Basic Arabic
-    1217       12    99.01   Arabic Extended
+    1217        9    99.26   Arabic Extended
        7        7     0.00   General Punctuation
-    3658       42    98.85   Total
+    3658       39    98.93   Total
 
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-Tahoma_Bold-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     4236   Characters
-     170   Errors
+     165   Errors
+   96.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      98       22       45      165   Unmarked
+      98       22       45      165   Total
+
+   Count   Missed   %Right
+     648       19    97.07   ASCII Spacing Characters
+      73       10    86.30   ASCII Special Symbols
+      20        0   100.00   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+       1        0   100.00   Latin1 Special Symbols
+    2120       34    98.40   Basic Arabic
+    1367       50    96.34   Arabic Extended
+       6        6     0.00   General Punctuation
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2211   Characters
+      37   Errors
+   98.33%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.33%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+       7       19       11       37   Unmarked
+       7       19       11       37   Total
+
+   Count   Missed   %Right
+     328        1    99.70   ASCII Spacing Characters
+      30       10    66.67   ASCII Special Symbols
+       5        0   100.00   ASCII Digits
+    1107        6    99.46   Basic Arabic
+     737        5    99.32   Arabic Extended
+       4        4     0.00   General Punctuation
+    2211       26    98.82   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2428   Characters
+      69   Errors
+   97.16%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.16%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      28       13       28       69   Unmarked
+      28       13       28       69   Total
+
+   Count   Missed   %Right
+     346        2    99.42   ASCII Spacing Characters
+      30        4    86.67   ASCII Special Symbols
+      20        0   100.00   ASCII Digits
+       2        2     0.00   Latin1 Special Symbols
+    1177       16    98.64   Basic Arabic
+     849       13    98.47   Arabic Extended
+       4        4     0.00   General Punctuation
+    2428       41    98.31   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2523   Characters
+      80   Errors
+   96.83%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.83%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      10       36       34       80   Unmarked
+      10       36       34       80   Total
+
+   Count   Missed   %Right
+     385        0   100.00   ASCII Spacing Characters
+      29        7    75.86   ASCII Special Symbols
+       4        0   100.00   ASCII Digits
+    1231       18    98.54   Basic Arabic
+     872       19    97.82   Arabic Extended
+       2        2     0.00   General Punctuation
+    2523       46    98.18   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_1.811_133193_252800
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2370   Characters
+      95   Errors
    95.99%  Accuracy
 
        0   Reject Characters
@@ -2235,167 +2367,47 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      98       28       44      170   Unmarked
-      98       28       44      170   Total
-
-   Count   Missed   %Right
-     648       19    97.07   ASCII Spacing Characters
-      73       11    84.93   ASCII Special Symbols
-      20        0   100.00   ASCII Digits
-       1        1     0.00   Latin1 Spacing Characters
-       1        0   100.00   Latin1 Special Symbols
-    2120       36    98.30   Basic Arabic
-    1367       53    96.12   Arabic Extended
-       6        6     0.00   General Punctuation
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Ubuntu_Kurdish_0.81_met-ckbLayer_2.125_93030_163600
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2211   Characters
-      34   Errors
-   98.46%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   98.46%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      10       17        7       34   Unmarked
-      10       17        7       34   Total
-
-   Count   Missed   %Right
-     328        2    99.39   ASCII Spacing Characters
-      30       10    66.67   ASCII Special Symbols
-       5        0   100.00   ASCII Digits
-    1107        4    99.64   Basic Arabic
-     737        7    99.05   Arabic Extended
-       4        4     0.00   General Punctuation
-    2211       27    98.78   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Chimen-ckbLayer_2.125_93030_163600
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2428   Characters
-      70   Errors
-   97.12%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   97.12%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      29       14       27       70   Unmarked
-      29       14       27       70   Total
-
-   Count   Missed   %Right
-     346        2    99.42   ASCII Spacing Characters
-      30        4    86.67   ASCII Special Symbols
-      20        0   100.00   ASCII Digits
-       2        2     0.00   Latin1 Special Symbols
-    1177       16    98.64   Basic Arabic
-     849       15    98.23   Arabic Extended
-       4        4     0.00   General Punctuation
-    2428       43    98.23   Total
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Goran-ckbLayer_2.125_93030_163600
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2523   Characters
-      82   Errors
-   96.75%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.75%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      10       38       34       82   Unmarked
-      10       38       34       82   Total
-
-   Count   Missed   %Right
-     385        1    99.74   ASCII Spacing Characters
-      29        8    72.41   ASCII Special Symbols
-       4        0   100.00   ASCII Digits
-    1231       17    98.62   Basic Arabic
-     872       20    97.71   Arabic Extended
-       2        2     0.00   General Punctuation
-    2523       48    98.10   Total
-
-
------------------------------------------------------------------------------
-
-------------------------------------------------------------------- Arabic ckb-Unikurd_Web-ckbLayer_2.125_93030_163600
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2370   Characters
-      94   Errors
-   96.03%  Accuracy
-
-       0   Reject Characters
-       0   Suspect Markers
-       0   False Marks
-    0.00%  Characters Marked
-   96.03%  Accuracy After Correction
-
-     Ins    Subst      Del   Errors
-       0        0        0        0   Marked
-      36       34       24       94   Unmarked
-      36       34       24       94   Total
+      36       32       27       95   Unmarked
+      36       32       27       95   Total
 
    Count   Missed   %Right
      364        7    98.08   ASCII Spacing Characters
-      52       20    61.54   ASCII Special Symbols
+      52       19    63.46   ASCII Special Symbols
       25        2    92.00   ASCII Digits
        1        1     0.00   Latin1 Special Symbols
-    1197       20    98.33   Basic Arabic
+    1197       19    98.41   Basic Arabic
      729       18    97.53   Arabic Extended
        2        2     0.00   General Punctuation
-    2370       70    97.05   Total
+    2370       68    97.13   Total
 
 -----------------------------------------------------------------------------
 
-------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_2.125_93030_163600
+------------------------------------------------------------------- Arabic ckb-shasenem-kurd-ckbLayer_1.811_133193_252800
 UNLV-ISRI OCR Accuracy Report Version 5.1
 -----------------------------------------
     2243   Characters
-      73   Errors
-   96.75%  Accuracy
+      82   Errors
+   96.34%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   96.75%  Accuracy After Correction
+   96.34%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      15       38       20       73   Unmarked
-      15       38       20       73   Total
+      15       43       24       82   Unmarked
+      15       43       24       82   Total
 
    Count   Missed   %Right
      353        2    99.43   ASCII Spacing Characters
       50       21    58.00   ASCII Special Symbols
       28        0   100.00   ASCII Digits
-    1073        9    99.16   Basic Arabic
-     735       17    97.69   Arabic Extended
+    1073       12    98.88   Basic Arabic
+     735       19    97.41   Arabic Extended
        4        4     0.00   General Punctuation
-    2243       53    97.64   Total
+    2243       58    97.41   Total
 
 
 -----------------------------------------------------------------------------
@@ -2404,6 +2416,6 @@ accuracy: text stream is too long
 -----------------------------------------------------------------------------
 
 *************************************************************************
-real 1098.43
-user 1130.60
-sys 37.57
+real 1084.75
+user 1116.87
+sys 37.54
