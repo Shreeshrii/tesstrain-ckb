@@ -7,6 +7,21 @@ Certain file locations and scripts have been modified compared to source repos.
 
 Since `ocrevalutf8 accuracy` is not able to handle large utf files, only a selection of data is used for evaluation using [UNLV OCR evaluation tools](https://github.com/Shreeshrii/ocr-evaluation-tools). Please also note that this does not correctly evaluate punctuation such as parenthesis and braces when used in RTL languages, so the accuracy results for (, ), [, ], etc are incorrect.
 
+## ckb - Central Kurdish/Sorani in Arabic script
+
+Replace the top layer training is being done using 26 fonts. The training text includes punctuation, AWN and AEN numbers. Fonts used do not include those which convert 0-9 to either Arabic or Persian numbers.
+
+Currently the training data includes
+* AWN 0-9
+* AEN - Arabic numbers
+* No Persian numbers since some shapes are similar to Arabic Numbers
+
+The replace layer training is still ongoing. The eval results look much better than the official ara or script/Arabic, however I do not have any real world images for testing.
+
+General punctuation (parenthesis, brackets, etc.) is reported as having accuracy of 0.0% after training - this needs to be further investigated (is it error in evaluation tools or problem when reversing the RTL text for box files?)
+
+* [Last three ckb models with lowest CER](https://github.com/Shreeshrii/tesstrain-ckb/tree/master/data/ckb/tessdata_fast)
+
 ## Comparative Results
 
 The following table has comparative results for the most used fonts for the _fast models from official repo 
@@ -29,9 +44,5 @@ which were not used for training.
 | ckbLayer_fast                  	| Accuracy        	| 98.20 	| 97.78      	| 98.06  	| 96.13       	|
 | ckbLayer_fast                  	| Basic Arabic    	| 99.10 	| 99.15      	| 98.54  	| 98.44       	|
 | ckbLayer_fast                  	| Arabic Extended 	| 98.30 	| 98.70      	| 99.10  	| 96.27       	|
+|                                   	|                 	|       	|            	|        	|             	|
 
-## ckb - Central Kurdish/Sorani in Arabic script
-
-Using 26 fonts, includes punctuation, AWN and AEN numbers.
-
-* [Last three ckb models with lowest CER](https://github.com/Shreeshrii/tesstrain-ckb/tree/master/data/ckb/tessdata_fast)
