@@ -1,0 +1,16 @@
+*.log
+*/*test*
+*test*
+*xxx*.*
+data/*.txt
+data/*/check*
+data/*/tessdata_best
+data/*lstmf
+data/*unicharset
+data/fast_*
+data/script
+gt/*
+gt/*.*
+langdata/*
+langdata/kur.*
+reports/*/*

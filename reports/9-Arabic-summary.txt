@@ -1,0 +1,156 @@
+ ********************Arabic ***** ckb-Abd_Akre ********************
+   79.95%  Accuracy
+      10        0   100.00   ASCII Digits
+    1287       66    94.87   Basic Arabic
+     954      405    57.55   Arabic Extended
+       9        7    22.22   General Punctuation
+ ********************Arabic ***** ckb-Abd_Gare ********************
+   75.85%  Accuracy
+    1689       69    95.91   Basic Arabic
+    1009      478    52.63   Arabic Extended
+      12       12     0.00   General Punctuation
+ ********************Arabic ***** ckb-Abd_Halabja_OLD ********************
+   82.27%  Accuracy
+      40        0   100.00   ASCII Digits
+    1066       50    95.31   Basic Arabic
+     677      287    57.61   Arabic Extended
+       4        3    25.00   General Punctuation
+ ********************Arabic ***** ckb-Abd_Hewler ********************
+   81.06%  Accuracy
+      29        4    86.21   ASCII Digits
+    1286       73    94.32   Basic Arabic
+     854      348    59.25   Arabic Extended
+       5        5     0.00   General Punctuation
+ ********************Arabic ***** ckb-Abd_Metin_Bold, ********************
+   76.50%  Accuracy
+      43        6    86.05   ASCII Digits
+    1140       79    93.07   Basic Arabic
+     674      343    49.11   Arabic Extended
+       1        0   100.00   General Punctuation
+ ********************Arabic ***** ckb-Abd_Umed ********************
+   75.31%  Accuracy
+      22        0   100.00   ASCII Digits
+    1036       80    92.28   Basic Arabic
+     698      304    56.45   Arabic Extended
+       6        2    66.67   General Punctuation
+ ********************Arabic ***** ckb-Adobe_Arabic_Bold ********************
+   80.57%  Accuracy
+      16        1    93.75   ASCII Digits
+    1257       61    95.15   Basic Arabic
+     717      323    54.95   Arabic Extended
+       5        4    20.00   General Punctuation
+Finished Adobe Arabic Bold
+ ********************Arabic ***** ckb-Arabic_Typesetting ********************
+   70.47%  Accuracy
+      10        0   100.00   ASCII Digits
+    1080      209    80.65   Basic Arabic
+     668      360    46.11   Arabic Extended
+       9        9     0.00   General Punctuation
+Finished Arabic Typesetting
+ ********************Arabic ***** ckb-Arial ********************
+   80.99%  Accuracy
+       5        0   100.00   ASCII Digits
+     995       30    96.98   Basic Arabic
+     646      276    57.28   Arabic Extended
+ ********************Arabic ***** ckb-Arial_Bold ********************
+   80.83%  Accuracy
+      55        2    96.36   ASCII Digits
+    2950      108    96.34   Basic Arabic
+    1853      774    58.23   Arabic Extended
+       9        7    22.22   General Punctuation
+ ********************Arabic ***** ckb-NRT_Bold, ********************
+   82.42%  Accuracy
+       1        0   100.00   ASCII Digits
+    1329       40    96.99   Basic Arabic
+     962      329    65.80   Arabic Extended
+       8        7    12.50   General Punctuation
+ ********************Arabic ***** ckb-NRT_Reg ********************
+   85.05%  Accuracy
+      72        4    94.44   ASCII Digits
+    1251       35    97.20   Basic Arabic
+     723      271    62.52   Arabic Extended
+       5        4    20.00   General Punctuation
+ ********************Arabic ***** ckb-Peshang_Des_1, ********************
+   80.89%  Accuracy
+      30        0   100.00   ASCII Digits
+    1346       63    95.32   Basic Arabic
+     879      344    60.86   Arabic Extended
+      11        9    18.18   General Punctuation
+ ********************Arabic ***** ckb-RudawRegular ********************
+   79.09%  Accuracy
+      10        0   100.00   ASCII Digits
+     939       51    94.57   Basic Arabic
+     528      242    54.17   Arabic Extended
+      11       11     0.00   General Punctuation
+ ********************Arabic ***** ckb-Sarchia_Banoka_1 ********************
+   77.80%  Accuracy
+      61        3    95.08   ASCII Digits
+    1579      138    91.26   Basic Arabic
+     996      466    53.21   Arabic Extended
+      15       15     0.00   General Punctuation
+ ********************Arabic ***** ckb-Segoe_UI ********************
+   80.47%  Accuracy
+      59        5    91.53   ASCII Digits
+    1251       57    95.44   Basic Arabic
+     810      344    57.53   Arabic Extended
+      11       11     0.00   General Punctuation
+ ********************Arabic ***** ckb-Segoe_UI_Bold ********************
+   80.21%  Accuracy
+      46        1    97.83   ASCII Digits
+    2257      132    94.15   Basic Arabic
+    1472      544    63.04   Arabic Extended
+      19       18     5.26   General Punctuation
+ ********************Arabic ***** ckb-Speda ********************
+   80.70%  Accuracy
+      20        2    90.00   ASCII Digits
+     839       26    96.90   Basic Arabic
+     509      216    57.56   Arabic Extended
+       2        2     0.00   General Punctuation
+ ********************Arabic ***** ckb-Speda_Bold ********************
+   81.02%  Accuracy
+      44        0   100.00   ASCII Digits
+    2513       77    96.94   Basic Arabic
+    1687      649    61.53   Arabic Extended
+      20       16    20.00   General Punctuation
+ ********************Arabic ***** ckb-Tahoma ********************
+   83.02%  Accuracy
+      67        1    98.51   ASCII Digits
+    1721       68    96.05   Basic Arabic
+    1217      441    63.76   Arabic Extended
+       7        6    14.29   General Punctuation
+ ********************Arabic ***** ckb-Tahoma_Bold ********************
+   77.17%  Accuracy
+      20        0   100.00   ASCII Digits
+    2120      130    93.87   Basic Arabic
+    1367      619    54.72   Arabic Extended
+       6        6     0.00   General Punctuation
+ ********************Arabic ***** ckb-Ubuntu_Kurdish_0.81_met ********************
+   77.43%  Accuracy
+       5        0   100.00   ASCII Digits
+    1107       58    94.76   Basic Arabic
+     737      323    56.17   Arabic Extended
+       4        3    25.00   General Punctuation
+ ********************Arabic ***** ckb-Unikurd_Chimen ********************
+   80.15%  Accuracy
+      20        0   100.00   ASCII Digits
+    1177       65    94.48   Basic Arabic
+     849      313    63.13   Arabic Extended
+       4        4     0.00   General Punctuation
+ ********************Arabic ***** ckb-Unikurd_Goran ********************
+   80.58%  Accuracy
+       4        1    75.00   ASCII Digits
+    1231       33    97.32   Basic Arabic
+     872      387    55.62   Arabic Extended
+       2        2     0.00   General Punctuation
+ ********************Arabic ***** ckb-Unikurd_Web ********************
+   80.63%  Accuracy
+      25        2    92.00   ASCII Digits
+    1197       43    96.41   Basic Arabic
+     729      316    56.65   Arabic Extended
+       2        2     0.00   General Punctuation
+ ********************Arabic ***** ckb-shasenem-kurd ********************
+   79.85%  Accuracy
+      28        0   100.00   ASCII Digits
+    1073       44    95.90   Basic Arabic
+     735      337    54.15   Arabic Extended
+       4        4     0.00   General Punctuation

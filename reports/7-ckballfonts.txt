@@ -1,0 +1,2499 @@
+lstmtraining \
+          --stop_training \
+          --continue_from data/ckballfonts/checkpoints/ckballfontsLayer_3.64_123694_238900.checkpoint \
+          --traineddata data/ckballfonts/ckballfonts.traineddata \
+          --model_output data/ckballfonts/tessdata_best/ckballfontsLayer_3.64_123694_238900.traineddata
+Loaded file data/ckballfonts/checkpoints/ckballfontsLayer_3.64_123694_238900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ckballfonts/checkpoints/ckballfontsLayer_3.64_123694_238900.checkpoint \
+          --traineddata data/ckballfonts/ckballfonts.traineddata \
+          --convert_to_int \
+          --model_output data/ckballfonts/tessdata_fast/ckballfontsLayer_3.64_123694_238900.traineddata
+Loaded file data/ckballfonts/checkpoints/ckballfontsLayer_3.64_123694_238900.checkpoint, unpacking...
+data/ckballfonts/tessdata_fast/ckballfontsLayer_3.64_123694_238900.traineddata
+ckballfontsLayer_3.64_123694_238900.traineddata
+ckballfontsLayer_3.64_123694_238900
+
+*****************************************************************************************
+
+
+----------------------------------------------------------------------------- ckball
+
+------------------------------------------------------------------- Arabic ckball-Arial-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckball-Arial.txt
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckball-Arial.txt encoding is UTF-8
+Jan 25, 2020 5:30:59 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckball-Arial.txt encoding is UTF-8
+Jan 25, 2020 5:31:00 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:31:00 AM eu.digitisation.utils.log.Messages info
+INFO: 5% of file processed
+Jan 25, 2020 5:31:00 AM eu.digitisation.utils.log.Messages info
+INFO: 8% of file processed
+Jan 25, 2020 5:31:00 AM eu.digitisation.utils.log.Messages info
+INFO: 11% of file processed
+Jan 25, 2020 5:31:01 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:31:01 AM eu.digitisation.utils.log.Messages info
+INFO: 17% of file processed
+Jan 25, 2020 5:31:01 AM eu.digitisation.utils.log.Messages info
+INFO: 19% of file processed
+Jan 25, 2020 5:31:01 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 25% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 28% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 31% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 34% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 36% of file processed
+Jan 25, 2020 5:31:02 AM eu.digitisation.utils.log.Messages info
+INFO: 39% of file processed
+Jan 25, 2020 5:31:03 AM eu.digitisation.utils.log.Messages info
+INFO: 42% of file processed
+Jan 25, 2020 5:31:03 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:31:03 AM eu.digitisation.utils.log.Messages info
+INFO: 48% of file processed
+Jan 25, 2020 5:31:03 AM eu.digitisation.utils.log.Messages info
+INFO: 51% of file processed
+Jan 25, 2020 5:31:03 AM eu.digitisation.utils.log.Messages info
+INFO: 53% of file processed
+Jan 25, 2020 5:31:04 AM eu.digitisation.utils.log.Messages info
+INFO: 56% of file processed
+Jan 25, 2020 5:31:04 AM eu.digitisation.utils.log.Messages info
+INFO: 59% of file processed
+Jan 25, 2020 5:31:04 AM eu.digitisation.utils.log.Messages info
+INFO: 62% of file processed
+Jan 25, 2020 5:31:04 AM eu.digitisation.utils.log.Messages info
+INFO: 65% of file processed
+Jan 25, 2020 5:31:04 AM eu.digitisation.utils.log.Messages info
+INFO: 68% of file processed
+Jan 25, 2020 5:31:05 AM eu.digitisation.utils.log.Messages info
+INFO: 70% of file processed
+Jan 25, 2020 5:31:05 AM eu.digitisation.utils.log.Messages info
+INFO: 73% of file processed
+Jan 25, 2020 5:31:05 AM eu.digitisation.utils.log.Messages info
+INFO: 76% of file processed
+Jan 25, 2020 5:31:05 AM eu.digitisation.utils.log.Messages info
+INFO: 79% of file processed
+Jan 25, 2020 5:31:05 AM eu.digitisation.utils.log.Messages info
+INFO: 82% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 87% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 93% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 96% of file processed
+Jan 25, 2020 5:31:06 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   36428   Characters
+    3312   Errors
+   90.91%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   90.91%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    1504     1535      273     3312   Unmarked
+    1504     1535      273     3312   Total
+
+   Count   Missed   %Right
+    5666        7    99.88   ASCII Spacing Characters
+     633      252    60.19   ASCII Special Symbols
+     507        8    98.42   ASCII Digits
+      12       12     0.00   Latin1 Spacing Characters
+       1        1     0.00   Latin1 Special Symbols
+   17956     1115    93.79   Basic Arabic
+   10173      164    98.39   Arabic Extended
+    1480     1480     0.00   General Punctuation
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckball-Arial_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckball-Arial_Bold.txt
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckball-Arial_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:34:21 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckball-Arial_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:34:22 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:34:22 AM eu.digitisation.utils.log.Messages info
+INFO: 4% of file processed
+Jan 25, 2020 5:34:22 AM eu.digitisation.utils.log.Messages info
+INFO: 7% of file processed
+Jan 25, 2020 5:34:22 AM eu.digitisation.utils.log.Messages info
+INFO: 9% of file processed
+Jan 25, 2020 5:34:23 AM eu.digitisation.utils.log.Messages info
+INFO: 12% of file processed
+Jan 25, 2020 5:34:23 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:34:23 AM eu.digitisation.utils.log.Messages info
+INFO: 17% of file processed
+Jan 25, 2020 5:34:23 AM eu.digitisation.utils.log.Messages info
+INFO: 19% of file processed
+Jan 25, 2020 5:34:23 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:34:24 AM eu.digitisation.utils.log.Messages info
+INFO: 25% of file processed
+Jan 25, 2020 5:34:24 AM eu.digitisation.utils.log.Messages info
+INFO: 27% of file processed
+Jan 25, 2020 5:34:24 AM eu.digitisation.utils.log.Messages info
+INFO: 30% of file processed
+Jan 25, 2020 5:34:24 AM eu.digitisation.utils.log.Messages info
+INFO: 32% of file processed
+Jan 25, 2020 5:34:24 AM eu.digitisation.utils.log.Messages info
+INFO: 35% of file processed
+Jan 25, 2020 5:34:25 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:34:25 AM eu.digitisation.utils.log.Messages info
+INFO: 40% of file processed
+Jan 25, 2020 5:34:25 AM eu.digitisation.utils.log.Messages info
+INFO: 42% of file processed
+Jan 25, 2020 5:34:25 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:34:25 AM eu.digitisation.utils.log.Messages info
+INFO: 47% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 50% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 52% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 55% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 57% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 60% of file processed
+Jan 25, 2020 5:34:26 AM eu.digitisation.utils.log.Messages info
+INFO: 62% of file processed
+Jan 25, 2020 5:34:27 AM eu.digitisation.utils.log.Messages info
+INFO: 65% of file processed
+Jan 25, 2020 5:34:27 AM eu.digitisation.utils.log.Messages info
+INFO: 67% of file processed
+Jan 25, 2020 5:34:27 AM eu.digitisation.utils.log.Messages info
+INFO: 70% of file processed
+Jan 25, 2020 5:34:27 AM eu.digitisation.utils.log.Messages info
+INFO: 72% of file processed
+Jan 25, 2020 5:34:27 AM eu.digitisation.utils.log.Messages info
+INFO: 75% of file processed
+Jan 25, 2020 5:34:28 AM eu.digitisation.utils.log.Messages info
+INFO: 77% of file processed
+Jan 25, 2020 5:34:28 AM eu.digitisation.utils.log.Messages info
+INFO: 80% of file processed
+Jan 25, 2020 5:34:28 AM eu.digitisation.utils.log.Messages info
+INFO: 82% of file processed
+Jan 25, 2020 5:34:28 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:34:28 AM eu.digitisation.utils.log.Messages info
+INFO: 87% of file processed
+Jan 25, 2020 5:34:29 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:34:29 AM eu.digitisation.utils.log.Messages info
+INFO: 92% of file processed
+Jan 25, 2020 5:34:29 AM eu.digitisation.utils.log.Messages info
+INFO: 95% of file processed
+Jan 25, 2020 5:34:29 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   41154   Characters
+    3680   Errors
+   91.06%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.06%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    1677     1691      312     3680   Unmarked
+    1677     1691      312     3680   Total
+
+   Count   Missed   %Right
+    6350       28    99.56   ASCII Spacing Characters
+     598      240    59.87   ASCII Special Symbols
+     365        0   100.00   ASCII Digits
+       9        9     0.00   Latin1 Spacing Characters
+   20731     1273    93.86   Basic Arabic
+   11507      224    98.05   Arabic Extended
+    1594     1594     0.00   General Punctuation
+   41154     3368    91.82   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckball-Tahoma-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckball-Tahoma.txt
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckball-Tahoma.txt encoding is UTF-8
+Jan 25, 2020 5:37:53 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckball-Tahoma.txt encoding is UTF-8
+Jan 25, 2020 5:37:54 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:37:54 AM eu.digitisation.utils.log.Messages info
+INFO: 5% of file processed
+Jan 25, 2020 5:37:54 AM eu.digitisation.utils.log.Messages info
+INFO: 7% of file processed
+Jan 25, 2020 5:37:54 AM eu.digitisation.utils.log.Messages info
+INFO: 10% of file processed
+Jan 25, 2020 5:37:54 AM eu.digitisation.utils.log.Messages info
+INFO: 13% of file processed
+Jan 25, 2020 5:37:55 AM eu.digitisation.utils.log.Messages info
+INFO: 16% of file processed
+Jan 25, 2020 5:37:55 AM eu.digitisation.utils.log.Messages info
+INFO: 18% of file processed
+Jan 25, 2020 5:37:55 AM eu.digitisation.utils.log.Messages info
+INFO: 21% of file processed
+Jan 25, 2020 5:37:55 AM eu.digitisation.utils.log.Messages info
+INFO: 24% of file processed
+Jan 25, 2020 5:37:55 AM eu.digitisation.utils.log.Messages info
+INFO: 26% of file processed
+Jan 25, 2020 5:37:56 AM eu.digitisation.utils.log.Messages info
+INFO: 29% of file processed
+Jan 25, 2020 5:37:56 AM eu.digitisation.utils.log.Messages info
+INFO: 32% of file processed
+Jan 25, 2020 5:37:56 AM eu.digitisation.utils.log.Messages info
+INFO: 34% of file processed
+Jan 25, 2020 5:37:56 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:37:56 AM eu.digitisation.utils.log.Messages info
+INFO: 40% of file processed
+Jan 25, 2020 5:37:57 AM eu.digitisation.utils.log.Messages info
+INFO: 42% of file processed
+Jan 25, 2020 5:37:57 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:37:57 AM eu.digitisation.utils.log.Messages info
+INFO: 48% of file processed
+Jan 25, 2020 5:37:57 AM eu.digitisation.utils.log.Messages info
+INFO: 50% of file processed
+Jan 25, 2020 5:37:57 AM eu.digitisation.utils.log.Messages info
+INFO: 53% of file processed
+Jan 25, 2020 5:37:58 AM eu.digitisation.utils.log.Messages info
+INFO: 56% of file processed
+Jan 25, 2020 5:37:58 AM eu.digitisation.utils.log.Messages info
+INFO: 58% of file processed
+Jan 25, 2020 5:37:58 AM eu.digitisation.utils.log.Messages info
+INFO: 61% of file processed
+Jan 25, 2020 5:37:58 AM eu.digitisation.utils.log.Messages info
+INFO: 64% of file processed
+Jan 25, 2020 5:37:58 AM eu.digitisation.utils.log.Messages info
+INFO: 66% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 69% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 72% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 74% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 77% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 80% of file processed
+Jan 25, 2020 5:37:59 AM eu.digitisation.utils.log.Messages info
+INFO: 82% of file processed
+Jan 25, 2020 5:38:00 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:38:00 AM eu.digitisation.utils.log.Messages info
+INFO: 88% of file processed
+Jan 25, 2020 5:38:00 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:38:00 AM eu.digitisation.utils.log.Messages info
+INFO: 93% of file processed
+Jan 25, 2020 5:38:00 AM eu.digitisation.utils.log.Messages info
+INFO: 96% of file processed
+Jan 25, 2020 5:38:01 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   38798   Characters
+    3657   Errors
+   90.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   90.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    1711     1682      264     3657   Unmarked
+    1711     1682      264     3657   Total
+
+   Count   Missed   %Right
+    5965       35    99.41   ASCII Spacing Characters
+     597      237    60.30   ASCII Special Symbols
+     360        0   100.00   ASCII Digits
+       6        6     0.00   Latin1 Spacing Characters
+   19421     1237    93.63   Basic Arabic
+   10874      303    97.21   Arabic Extended
+    1575     1575     0.00   General Punctuation
+   38798     3393    91.25   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckball-Tahoma_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckball-Tahoma_Bold.txt
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckball-Tahoma_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:41:28 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckball-Tahoma_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:41:29 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:41:29 AM eu.digitisation.utils.log.Messages info
+INFO: 5% of file processed
+Jan 25, 2020 5:41:29 AM eu.digitisation.utils.log.Messages info
+INFO: 8% of file processed
+Jan 25, 2020 5:41:29 AM eu.digitisation.utils.log.Messages info
+INFO: 11% of file processed
+Jan 25, 2020 5:41:30 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:41:30 AM eu.digitisation.utils.log.Messages info
+INFO: 17% of file processed
+Jan 25, 2020 5:41:30 AM eu.digitisation.utils.log.Messages info
+INFO: 20% of file processed
+Jan 25, 2020 5:41:30 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:41:30 AM eu.digitisation.utils.log.Messages info
+INFO: 25% of file processed
+Jan 25, 2020 5:41:31 AM eu.digitisation.utils.log.Messages info
+INFO: 28% of file processed
+Jan 25, 2020 5:41:31 AM eu.digitisation.utils.log.Messages info
+INFO: 31% of file processed
+Jan 25, 2020 5:41:31 AM eu.digitisation.utils.log.Messages info
+INFO: 34% of file processed
+Jan 25, 2020 5:41:31 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:41:31 AM eu.digitisation.utils.log.Messages info
+INFO: 40% of file processed
+Jan 25, 2020 5:41:32 AM eu.digitisation.utils.log.Messages info
+INFO: 43% of file processed
+Jan 25, 2020 5:41:32 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:41:32 AM eu.digitisation.utils.log.Messages info
+INFO: 48% of file processed
+Jan 25, 2020 5:41:32 AM eu.digitisation.utils.log.Messages info
+INFO: 51% of file processed
+Jan 25, 2020 5:41:32 AM eu.digitisation.utils.log.Messages info
+INFO: 54% of file processed
+Jan 25, 2020 5:41:33 AM eu.digitisation.utils.log.Messages info
+INFO: 57% of file processed
+Jan 25, 2020 5:41:33 AM eu.digitisation.utils.log.Messages info
+INFO: 60% of file processed
+Jan 25, 2020 5:41:33 AM eu.digitisation.utils.log.Messages info
+INFO: 63% of file processed
+Jan 25, 2020 5:41:33 AM eu.digitisation.utils.log.Messages info
+INFO: 66% of file processed
+Jan 25, 2020 5:41:33 AM eu.digitisation.utils.log.Messages info
+INFO: 69% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 72% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 74% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 77% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 80% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 83% of file processed
+Jan 25, 2020 5:41:34 AM eu.digitisation.utils.log.Messages info
+INFO: 86% of file processed
+Jan 25, 2020 5:41:35 AM eu.digitisation.utils.log.Messages info
+INFO: 89% of file processed
+Jan 25, 2020 5:41:35 AM eu.digitisation.utils.log.Messages info
+INFO: 91% of file processed
+Jan 25, 2020 5:41:35 AM eu.digitisation.utils.log.Messages info
+INFO: 94% of file processed
+Jan 25, 2020 5:41:35 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   36787   Characters
+    4285   Errors
+   88.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   88.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    2474     1484      327     4285   Unmarked
+    2474     1484      327     4285   Total
+
+   Count   Missed   %Right
+    5681      153    97.31   ASCII Spacing Characters
+     586      261    55.46   ASCII Special Symbols
+     386       24    93.78   ASCII Digits
+      11       11     0.00   Latin1 Spacing Characters
+   18181     1584    91.29   Basic Arabic
+   10624      607    94.29   Arabic Extended
+    1318     1318     0.00   General Punctuation
+   36787     3958    89.24   Total
+
+-----------------------------------------------------------------------------
+accuracy: text stream is too long
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckball-ALL.txt
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:41:37 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckball-ALL.txt encoding is UTF-8
+Jan 25, 2020 5:41:38 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckball-ALL.txt encoding is UTF-8
+Jan 25, 2020 5:41:38 AM eu.digitisation.utils.log.Messages info
+INFO: 0% of file processed
+Jan 25, 2020 5:41:38 AM eu.digitisation.utils.log.Messages info
+INFO: 1% of file processed
+Jan 25, 2020 5:41:39 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:41:39 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:41:39 AM eu.digitisation.utils.log.Messages info
+INFO: 3% of file processed
+Jan 25, 2020 5:41:39 AM eu.digitisation.utils.log.Messages info
+INFO: 4% of file processed
+Jan 25, 2020 5:41:39 AM eu.digitisation.utils.log.Messages info
+INFO: 4% of file processed
+Jan 25, 2020 5:41:40 AM eu.digitisation.utils.log.Messages info
+INFO: 5% of file processed
+Jan 25, 2020 5:41:40 AM eu.digitisation.utils.log.Messages info
+INFO: 6% of file processed
+Jan 25, 2020 5:41:40 AM eu.digitisation.utils.log.Messages info
+INFO: 6% of file processed
+Jan 25, 2020 5:41:40 AM eu.digitisation.utils.log.Messages info
+INFO: 7% of file processed
+Jan 25, 2020 5:41:40 AM eu.digitisation.utils.log.Messages info
+INFO: 8% of file processed
+Jan 25, 2020 5:41:41 AM eu.digitisation.utils.log.Messages info
+INFO: 8% of file processed
+Jan 25, 2020 5:41:41 AM eu.digitisation.utils.log.Messages info
+INFO: 9% of file processed
+Jan 25, 2020 5:41:41 AM eu.digitisation.utils.log.Messages info
+INFO: 10% of file processed
+Jan 25, 2020 5:41:41 AM eu.digitisation.utils.log.Messages info
+INFO: 10% of file processed
+Jan 25, 2020 5:41:41 AM eu.digitisation.utils.log.Messages info
+INFO: 11% of file processed
+Jan 25, 2020 5:41:42 AM eu.digitisation.utils.log.Messages info
+INFO: 12% of file processed
+Jan 25, 2020 5:41:42 AM eu.digitisation.utils.log.Messages info
+INFO: 12% of file processed
+Jan 25, 2020 5:41:42 AM eu.digitisation.utils.log.Messages info
+INFO: 13% of file processed
+Jan 25, 2020 5:41:42 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:41:42 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:41:43 AM eu.digitisation.utils.log.Messages info
+INFO: 15% of file processed
+Jan 25, 2020 5:41:43 AM eu.digitisation.utils.log.Messages info
+INFO: 16% of file processed
+Jan 25, 2020 5:41:43 AM eu.digitisation.utils.log.Messages info
+INFO: 16% of file processed
+Jan 25, 2020 5:41:43 AM eu.digitisation.utils.log.Messages info
+INFO: 17% of file processed
+Jan 25, 2020 5:41:43 AM eu.digitisation.utils.log.Messages info
+INFO: 18% of file processed
+Jan 25, 2020 5:41:44 AM eu.digitisation.utils.log.Messages info
+INFO: 18% of file processed
+Jan 25, 2020 5:41:44 AM eu.digitisation.utils.log.Messages info
+INFO: 19% of file processed
+Jan 25, 2020 5:41:44 AM eu.digitisation.utils.log.Messages info
+INFO: 20% of file processed
+Jan 25, 2020 5:41:44 AM eu.digitisation.utils.log.Messages info
+INFO: 20% of file processed
+Jan 25, 2020 5:41:45 AM eu.digitisation.utils.log.Messages info
+INFO: 21% of file processed
+Jan 25, 2020 5:41:45 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:41:45 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:41:45 AM eu.digitisation.utils.log.Messages info
+INFO: 23% of file processed
+Jan 25, 2020 5:41:45 AM eu.digitisation.utils.log.Messages info
+INFO: 24% of file processed
+Jan 25, 2020 5:41:46 AM eu.digitisation.utils.log.Messages info
+INFO: 24% of file processed
+Jan 25, 2020 5:41:46 AM eu.digitisation.utils.log.Messages info
+INFO: 25% of file processed
+Jan 25, 2020 5:41:46 AM eu.digitisation.utils.log.Messages info
+INFO: 26% of file processed
+Jan 25, 2020 5:41:46 AM eu.digitisation.utils.log.Messages info
+INFO: 26% of file processed
+Jan 25, 2020 5:41:46 AM eu.digitisation.utils.log.Messages info
+INFO: 27% of file processed
+Jan 25, 2020 5:41:47 AM eu.digitisation.utils.log.Messages info
+INFO: 28% of file processed
+Jan 25, 2020 5:41:47 AM eu.digitisation.utils.log.Messages info
+INFO: 28% of file processed
+Jan 25, 2020 5:41:47 AM eu.digitisation.utils.log.Messages info
+INFO: 29% of file processed
+Jan 25, 2020 5:41:47 AM eu.digitisation.utils.log.Messages info
+INFO: 30% of file processed
+Jan 25, 2020 5:41:47 AM eu.digitisation.utils.log.Messages info
+INFO: 31% of file processed
+Jan 25, 2020 5:41:48 AM eu.digitisation.utils.log.Messages info
+INFO: 31% of file processed
+Jan 25, 2020 5:41:48 AM eu.digitisation.utils.log.Messages info
+INFO: 32% of file processed
+Jan 25, 2020 5:41:48 AM eu.digitisation.utils.log.Messages info
+INFO: 33% of file processed
+Jan 25, 2020 5:41:48 AM eu.digitisation.utils.log.Messages info
+INFO: 33% of file processed
+Jan 25, 2020 5:41:48 AM eu.digitisation.utils.log.Messages info
+INFO: 34% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 35% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 35% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 36% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:41:49 AM eu.digitisation.utils.log.Messages info
+INFO: 38% of file processed
+Jan 25, 2020 5:41:50 AM eu.digitisation.utils.log.Messages info
+INFO: 39% of file processed
+Jan 25, 2020 5:41:50 AM eu.digitisation.utils.log.Messages info
+INFO: 39% of file processed
+Jan 25, 2020 5:41:50 AM eu.digitisation.utils.log.Messages info
+INFO: 40% of file processed
+Jan 25, 2020 5:41:50 AM eu.digitisation.utils.log.Messages info
+INFO: 41% of file processed
+Jan 25, 2020 5:41:50 AM eu.digitisation.utils.log.Messages info
+INFO: 41% of file processed
+Jan 25, 2020 5:41:51 AM eu.digitisation.utils.log.Messages info
+INFO: 42% of file processed
+Jan 25, 2020 5:41:51 AM eu.digitisation.utils.log.Messages info
+INFO: 43% of file processed
+Jan 25, 2020 5:41:51 AM eu.digitisation.utils.log.Messages info
+INFO: 43% of file processed
+Jan 25, 2020 5:41:51 AM eu.digitisation.utils.log.Messages info
+INFO: 44% of file processed
+Jan 25, 2020 5:41:51 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:41:52 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:41:52 AM eu.digitisation.utils.log.Messages info
+INFO: 46% of file processed
+Jan 25, 2020 5:41:52 AM eu.digitisation.utils.log.Messages info
+INFO: 47% of file processed
+Jan 25, 2020 5:41:52 AM eu.digitisation.utils.log.Messages info
+INFO: 47% of file processed
+Jan 25, 2020 5:41:52 AM eu.digitisation.utils.log.Messages info
+INFO: 48% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 49% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 49% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 50% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 51% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 51% of file processed
+Jan 25, 2020 5:41:53 AM eu.digitisation.utils.log.Messages info
+INFO: 52% of file processed
+Jan 25, 2020 5:41:54 AM eu.digitisation.utils.log.Messages info
+INFO: 53% of file processed
+Jan 25, 2020 5:41:54 AM eu.digitisation.utils.log.Messages info
+INFO: 53% of file processed
+Jan 25, 2020 5:41:54 AM eu.digitisation.utils.log.Messages info
+INFO: 54% of file processed
+Jan 25, 2020 5:41:54 AM eu.digitisation.utils.log.Messages info
+INFO: 55% of file processed
+Jan 25, 2020 5:41:54 AM eu.digitisation.utils.log.Messages info
+INFO: 55% of file processed
+Jan 25, 2020 5:41:55 AM eu.digitisation.utils.log.Messages info
+INFO: 56% of file processed
+Jan 25, 2020 5:41:55 AM eu.digitisation.utils.log.Messages info
+INFO: 57% of file processed
+Jan 25, 2020 5:41:55 AM eu.digitisation.utils.log.Messages info
+INFO: 58% of file processed
+Jan 25, 2020 5:41:55 AM eu.digitisation.utils.log.Messages info
+INFO: 58% of file processed
+Jan 25, 2020 5:41:55 AM eu.digitisation.utils.log.Messages info
+INFO: 59% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 60% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 60% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 61% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 62% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 62% of file processed
+Jan 25, 2020 5:41:56 AM eu.digitisation.utils.log.Messages info
+INFO: 63% of file processed
+Jan 25, 2020 5:41:57 AM eu.digitisation.utils.log.Messages info
+INFO: 64% of file processed
+Jan 25, 2020 5:41:57 AM eu.digitisation.utils.log.Messages info
+INFO: 64% of file processed
+Jan 25, 2020 5:41:57 AM eu.digitisation.utils.log.Messages info
+INFO: 65% of file processed
+Jan 25, 2020 5:41:57 AM eu.digitisation.utils.log.Messages info
+INFO: 66% of file processed
+Jan 25, 2020 5:41:57 AM eu.digitisation.utils.log.Messages info
+INFO: 66% of file processed
+Jan 25, 2020 5:41:58 AM eu.digitisation.utils.log.Messages info
+INFO: 67% of file processed
+Jan 25, 2020 5:41:58 AM eu.digitisation.utils.log.Messages info
+INFO: 68% of file processed
+Jan 25, 2020 5:41:58 AM eu.digitisation.utils.log.Messages info
+INFO: 68% of file processed
+Jan 25, 2020 5:41:58 AM eu.digitisation.utils.log.Messages info
+INFO: 69% of file processed
+Jan 25, 2020 5:41:58 AM eu.digitisation.utils.log.Messages info
+INFO: 70% of file processed
+Jan 25, 2020 5:41:59 AM eu.digitisation.utils.log.Messages info
+INFO: 70% of file processed
+Jan 25, 2020 5:41:59 AM eu.digitisation.utils.log.Messages info
+INFO: 71% of file processed
+Jan 25, 2020 5:41:59 AM eu.digitisation.utils.log.Messages info
+INFO: 72% of file processed
+Jan 25, 2020 5:41:59 AM eu.digitisation.utils.log.Messages info
+INFO: 72% of file processed
+Jan 25, 2020 5:41:59 AM eu.digitisation.utils.log.Messages info
+INFO: 73% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 74% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 74% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 75% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 76% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 76% of file processed
+Jan 25, 2020 5:42:00 AM eu.digitisation.utils.log.Messages info
+INFO: 77% of file processed
+Jan 25, 2020 5:42:01 AM eu.digitisation.utils.log.Messages info
+INFO: 78% of file processed
+Jan 25, 2020 5:42:01 AM eu.digitisation.utils.log.Messages info
+INFO: 79% of file processed
+Jan 25, 2020 5:42:01 AM eu.digitisation.utils.log.Messages info
+INFO: 79% of file processed
+Jan 25, 2020 5:42:01 AM eu.digitisation.utils.log.Messages info
+INFO: 80% of file processed
+Jan 25, 2020 5:42:01 AM eu.digitisation.utils.log.Messages info
+INFO: 81% of file processed
+Jan 25, 2020 5:42:02 AM eu.digitisation.utils.log.Messages info
+INFO: 81% of file processed
+Jan 25, 2020 5:42:02 AM eu.digitisation.utils.log.Messages info
+INFO: 82% of file processed
+Jan 25, 2020 5:42:02 AM eu.digitisation.utils.log.Messages info
+INFO: 83% of file processed
+Jan 25, 2020 5:42:02 AM eu.digitisation.utils.log.Messages info
+INFO: 83% of file processed
+Jan 25, 2020 5:42:02 AM eu.digitisation.utils.log.Messages info
+INFO: 84% of file processed
+Jan 25, 2020 5:42:03 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:42:03 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:42:03 AM eu.digitisation.utils.log.Messages info
+INFO: 86% of file processed
+Jan 25, 2020 5:42:03 AM eu.digitisation.utils.log.Messages info
+INFO: 87% of file processed
+Jan 25, 2020 5:42:03 AM eu.digitisation.utils.log.Messages info
+INFO: 87% of file processed
+Jan 25, 2020 5:42:04 AM eu.digitisation.utils.log.Messages info
+INFO: 88% of file processed
+Jan 25, 2020 5:42:04 AM eu.digitisation.utils.log.Messages info
+INFO: 89% of file processed
+Jan 25, 2020 5:42:04 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:42:04 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:42:04 AM eu.digitisation.utils.log.Messages info
+INFO: 91% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 92% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 92% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 93% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 94% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 94% of file processed
+Jan 25, 2020 5:42:05 AM eu.digitisation.utils.log.Messages info
+INFO: 95% of file processed
+Jan 25, 2020 5:42:06 AM eu.digitisation.utils.log.Messages info
+INFO: 96% of file processed
+Jan 25, 2020 5:42:06 AM eu.digitisation.utils.log.Messages info
+INFO: 96% of file processed
+Jan 25, 2020 5:42:06 AM eu.digitisation.utils.log.Messages info
+INFO: 97% of file processed
+Jan 25, 2020 5:42:06 AM eu.digitisation.utils.log.Messages info
+INFO: 98% of file processed
+Jan 25, 2020 5:42:06 AM eu.digitisation.utils.log.Messages info
+INFO: 99% of file processed
+Jan 25, 2020 5:42:07 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+
+-----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------- ckballfonts
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Akre-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Akre.txt
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Akre.txt encoding is UTF-8
+Jan 25, 2020 5:42:18 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Akre.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2140   Characters
+     113   Errors
+   94.72%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.72%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      40       50       23      113   Unmarked
+      40       50       23      113   Total
+
+   Count   Missed   %Right
+     346        1    99.71   ASCII Spacing Characters
+      13        0   100.00   ASCII Special Symbols
+       1        0   100.00   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+     963       14    98.55   Basic Arabic
+     788       46    94.16   Arabic Extended
+      28       28     0.00   General Punctuation
+    2140       90    95.79   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Gare-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Gare.txt
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Gare.txt encoding is UTF-8
+Jan 25, 2020 5:42:30 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Gare.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1989   Characters
+     127   Errors
+   93.61%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.61%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      72       50        5      127   Unmarked
+      72       50        5      127   Total
+
+   Count   Missed   %Right
+     297        1    99.66   ASCII Spacing Characters
+      10        2    80.00   ASCII Special Symbols
+       4        0   100.00   ASCII Digits
+    1038       53    94.89   Basic Arabic
+     580        6    98.97   Arabic Extended
+      60       60     0.00   General Punctuation
+    1989      122    93.87   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Halabja_OLD-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Halabja_OLD.txt
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Halabja_OLD.txt encoding is UTF-8
+Jan 25, 2020 5:42:38 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Halabja_OLD.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1713   Characters
+     187   Errors
+   89.08%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.08%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      57       89       41      187   Unmarked
+      57       89       41      187   Total
+
+   Count   Missed   %Right
+     267        0   100.00   ASCII Spacing Characters
+      26       10    61.54   ASCII Special Symbols
+      42        4    90.48   ASCII Digits
+     782       38    95.14   Basic Arabic
+     541       39    92.79   Arabic Extended
+      55       55     0.00   General Punctuation
+    1713      146    91.48   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Hewler-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Hewler.txt
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Hewler.txt encoding is UTF-8
+Jan 25, 2020 5:42:46 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Hewler.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1889   Characters
+     115   Errors
+   93.91%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.91%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      66       39       10      115   Unmarked
+      66       39       10      115   Total
+
+   Count   Missed   %Right
+     307        0   100.00   ASCII Spacing Characters
+      28        4    85.71   ASCII Special Symbols
+      22        1    95.45   ASCII Digits
+     924       29    96.86   Basic Arabic
+     540        3    99.44   Arabic Extended
+      68       68     0.00   General Punctuation
+    1889      105    94.44   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Metin_Bold,-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:42:56 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Metin_Bold,.txt
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Metin_Bold,.txt encoding is UTF-8
+Jan 25, 2020 5:42:57 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Metin_Bold,.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2085   Characters
+     353   Errors
+   83.07%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   83.07%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     269       69       15      353   Unmarked
+     269       69       15      353   Total
+
+   Count   Missed   %Right
+     316       18    94.30   ASCII Spacing Characters
+      33       10    69.70   ASCII Special Symbols
+      50        4    92.00   ASCII Digits
+       2        2     0.00   Latin1 Spacing Characters
+    1048      157    85.02   Basic Arabic
+     550       61    88.91   Arabic Extended
+      86       86     0.00   General Punctuation
+    2085      338    83.79   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Abd_Umed-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Abd_Umed.txt
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Abd_Umed.txt encoding is UTF-8
+Jan 25, 2020 5:43:08 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Abd_Umed.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2086   Characters
+     243   Errors
+   88.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   88.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     146       60       37      243   Unmarked
+     146       60       37      243   Total
+
+   Count   Missed   %Right
+     324        8    97.53   ASCII Spacing Characters
+      18        9    50.00   ASCII Special Symbols
+      12        2    83.33   ASCII Digits
+    1015       99    90.25   Basic Arabic
+     667       38    94.30   Arabic Extended
+      50       50     0.00   General Punctuation
+    2086      206    90.12   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Adobe_Arabic_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:43:15 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Adobe_Arabic_Bold.txt
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Adobe_Arabic_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:43:16 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Adobe_Arabic_Bold.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1243   Characters
+      61   Errors
+   95.09%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   95.09%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      36       22        3       61   Unmarked
+      36       22        3       61   Total
+
+   Count   Missed   %Right
+     193        0   100.00   ASCII Spacing Characters
+      15        6    60.00   ASCII Special Symbols
+      20        0   100.00   ASCII Digits
+     610       14    97.70   Basic Arabic
+     369        2    99.46   Arabic Extended
+      36       36     0.00   General Punctuation
+    1243       58    95.33   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Arabic_Typesetting-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Arabic_Typesetting.txt
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Arabic_Typesetting.txt encoding is UTF-8
+Jan 25, 2020 5:43:24 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Arabic_Typesetting.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1954   Characters
+     264   Errors
+   86.49%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   86.49%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     105      133       26      264   Unmarked
+     105      133       26      264   Total
+
+   Count   Missed   %Right
+     292       12    95.89   ASCII Spacing Characters
+      24        9    62.50   ASCII Special Symbols
+      27        3    88.89   ASCII Digits
+     985       85    91.37   Basic Arabic
+     540       43    92.04   Arabic Extended
+      86       86     0.00   General Punctuation
+    1954      238    87.82   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Arial-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Arial.txt
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Arial.txt encoding is UTF-8
+Jan 25, 2020 5:44:07 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Arial.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   10382   Characters
+     183   Errors
+   98.24%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.24%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      94       62       27      183   Unmarked
+      94       62       27      183   Total
+
+   Count   Missed   %Right
+    1618        2    99.88   ASCII Spacing Characters
+      30        7    76.67   ASCII Special Symbols
+      23        0   100.00   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+    5111       53    98.96   Basic Arabic
+    3511        5    99.86   Arabic Extended
+      88       88     0.00   General Punctuation
+   10382      156    98.50   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Arial_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Arial_Bold.txt
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Arial_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:44:49 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Arial_Bold.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    9878   Characters
+     134   Errors
+   98.64%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   98.64%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      63       59       12      134   Unmarked
+      63       59       12      134   Total
+
+   Count   Missed   %Right
+    1490        1    99.93   ASCII Spacing Characters
+      24        7    70.83   ASCII Special Symbols
+      25        0   100.00   ASCII Digits
+       2        2     0.00   Latin1 Spacing Characters
+    4856       44    99.09   Basic Arabic
+    3421        8    99.77   Arabic Extended
+      60       60     0.00   General Punctuation
+    9878      122    98.76   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-NRT_Bold,-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-NRT_Bold,.txt
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-NRT_Bold,.txt encoding is UTF-8
+Jan 25, 2020 5:45:00 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-NRT_Bold,.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1384   Characters
+      78   Errors
+   94.36%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.36%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      44       27        7       78   Unmarked
+      44       27        7       78   Total
+
+   Count   Missed   %Right
+     219        0   100.00   ASCII Spacing Characters
+      18        5    72.22   ASCII Special Symbols
+      16        0   100.00   ASCII Digits
+     678       19    97.20   Basic Arabic
+     409        3    99.27   Arabic Extended
+      44       44     0.00   General Punctuation
+    1384       71    94.87   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-NRT_Reg-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:11 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-NRT_Reg.txt
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-NRT_Reg.txt encoding is UTF-8
+Jan 25, 2020 5:45:12 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-NRT_Reg.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1835   Characters
+     145   Errors
+   92.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      69       56       20      145   Unmarked
+      69       56       20      145   Total
+
+   Count   Missed   %Right
+     276        0   100.00   ASCII Spacing Characters
+      34       13    61.76   ASCII Special Symbols
+      36        4    88.89   ASCII Digits
+     900       30    96.67   Basic Arabic
+     523       12    97.71   Arabic Extended
+      66       66     0.00   General Punctuation
+    1835      125    93.19   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Peshang_Des_1,-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:20 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:20 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Peshang_Des_1,.txt
+Jan 25, 2020 5:45:21 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:21 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:21 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:21 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Peshang_Des_1,.txt encoding is UTF-8
+Jan 25, 2020 5:45:21 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Peshang_Des_1,.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1561   Characters
+      98   Errors
+   93.72%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.72%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      44       42       12       98   Unmarked
+      44       42       12       98   Total
+
+   Count   Missed   %Right
+     238        0   100.00   ASCII Spacing Characters
+      12        3    75.00   ASCII Special Symbols
+      10        0   100.00   ASCII Digits
+     750       32    95.73   Basic Arabic
+     507        7    98.62   Arabic Extended
+      44       44     0.00   General Punctuation
+    1561       86    94.49   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Peshang_Des_3,-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Peshang_Des_3,.txt
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Peshang_Des_3,.txt encoding is UTF-8
+Jan 25, 2020 5:45:30 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Peshang_Des_3,.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1271   Characters
+     167   Errors
+   86.86%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   86.86%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      80       74       13      167   Unmarked
+      80       74       13      167   Total
+
+   Count   Missed   %Right
+     188        4    97.87   ASCII Spacing Characters
+       7        2    71.43   ASCII Special Symbols
+     608       51    91.61   Basic Arabic
+     427       56    86.89   Arabic Extended
+      41       41     0.00   General Punctuation
+    1271      154    87.88   Total
+
+  Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Peshang_Des_5,-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:41 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Peshang_Des_5,.txt
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Peshang_Des_5,.txt encoding is UTF-8
+Jan 25, 2020 5:45:42 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Peshang_Des_5,.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1574   Characters
+     249   Errors
+   84.18%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   84.18%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     178       61       10      249   Unmarked
+     178       61       10      249   Total
+
+   Count   Missed   %Right
+     245       17    93.06   ASCII Spacing Characters
+      18        2    88.89   ASCII Special Symbols
+       6        0   100.00   ASCII Digits
+     797      108    86.45   Basic Arabic
+     445       49    88.99   Arabic Extended
+      63       63     0.00   General Punctuation
+    1574      239    84.82   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-RudawRegular-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-RudawRegular.txt
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-RudawRegular.txt encoding is UTF-8
+Jan 25, 2020 5:45:55 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-RudawRegular.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1423   Characters
+      89   Errors
+   93.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      53       30        6       89   Unmarked
+      53       30        6       89   Total
+
+   Count   Missed   %Right
+     208        1    99.52   ASCII Spacing Characters
+      16        4    75.00   ASCII Special Symbols
+       8        0   100.00   ASCII Digits
+       2        2     0.00   Latin1 Spacing Characters
+     706       25    96.46   Basic Arabic
+     433        1    99.77   Arabic Extended
+      50       50     0.00   General Punctuation
+    1423       83    94.17   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Sarchia_Banoka_1-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Sarchia_Banoka_1.txt
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Sarchia_Banoka_1.txt encoding is UTF-8
+Jan 25, 2020 5:46:14 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Sarchia_Banoka_1.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2830   Characters
+     228   Errors
+   91.94%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.94%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     113      101       14      228   Unmarked
+     113      101       14      228   Total
+
+   Count   Missed   %Right
+     419        0   100.00   ASCII Spacing Characters
+      31        8    74.19   ASCII Special Symbols
+      13        3    76.92   ASCII Digits
+    1358       74    94.55   Basic Arabic
+     897       17    98.10   Arabic Extended
+     112      112     0.00   General Punctuation
+    2830      214    92.44   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Segoe_UI-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Segoe_UI.txt
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Segoe_UI.txt encoding is UTF-8
+Jan 25, 2020 5:46:27 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Segoe_UI.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2180   Characters
+     160   Errors
+   92.66%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.66%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      86       67        7      160   Unmarked
+      86       67        7      160   Total
+
+   Count   Missed   %Right
+     314        0   100.00   ASCII Spacing Characters
+      18        4    77.78   ASCII Special Symbols
+      19        0   100.00   ASCII Digits
+    1085       60    94.47   Basic Arabic
+     658        3    99.54   Arabic Extended
+      86       86     0.00   General Punctuation
+    2180      153    92.98   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Segoe_UI_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Segoe_UI_Bold.txt
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Segoe_UI_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:46:36 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Segoe_UI_Bold.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1251   Characters
+      80   Errors
+   93.61%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.61%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      35       34       11       80   Unmarked
+      35       34       11       80   Total
+
+   Count   Missed   %Right
+     198        1    99.49   ASCII Spacing Characters
+      16        7    56.25   ASCII Special Symbols
+       8        3    62.50   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+     584       14    97.60   Basic Arabic
+     409        8    98.04   Arabic Extended
+      35       35     0.00   General Punctuation
+    1251       69    94.48   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Speda-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Speda.txt
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Speda.txt encoding is UTF-8
+Jan 25, 2020 5:46:51 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Speda.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1785   Characters
+      96   Errors
+   94.62%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.62%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      52       37        7       96   Unmarked
+      52       37        7       96   Total
+
+   Count   Missed   %Right
+     286        0   100.00   ASCII Spacing Characters
+      22        4    81.82   ASCII Special Symbols
+      22        0   100.00   ASCII Digits
+     872       27    96.90   Basic Arabic
+     531        6    98.87   Arabic Extended
+      52       52     0.00   General Punctuation
+    1785       89    95.01   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Speda_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Speda_Bold.txt
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Speda_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:47:04 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Speda_Bold.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1491   Characters
+     103   Errors
+   93.09%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.09%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      64       26       13      103   Unmarked
+      64       26       13      103   Total
+
+   Count   Missed   %Right
+     227        3    98.68   ASCII Spacing Characters
+      10        4    60.00   ASCII Special Symbols
+     724       27    96.27   Basic Arabic
+     503       29    94.23   Arabic Extended
+      27       27     0.00   General Punctuation
+    1491       90    93.96   Total
+
+  Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Tahoma-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:48:00 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Tahoma.txt
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Tahoma.txt encoding is UTF-8
+Jan 25, 2020 5:48:01 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Tahoma.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    9648   Characters
+     225   Errors
+   97.67%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.67%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     138       63       24      225   Unmarked
+     138       63       24      225   Total
+
+   Count   Missed   %Right
+    1464        9    99.39   ASCII Spacing Characters
+      15        8    46.67   ASCII Special Symbols
+       4        0   100.00   ASCII Digits
+    4788       89    98.14   Basic Arabic
+    3328       46    98.62   Arabic Extended
+      49       49     0.00   General Punctuation
+    9648      201    97.92   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Tahoma_Bold-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Tahoma_Bold.txt
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:49:03 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Tahoma_Bold.txt encoding is UTF-8
+Jan 25, 2020 5:49:04 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Tahoma_Bold.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   10102   Characters
+    1046   Errors
+   89.65%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.65%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     880      152       14     1046   Unmarked
+     880      152       14     1046   Total
+
+   Count   Missed   %Right
+    1517      101    93.34   ASCII Spacing Characters
+      12        3    75.00   ASCII Special Symbols
+      12        0   100.00   ASCII Digits
+    5008      501    90.00   Basic Arabic
+    3510      384    89.06   Arabic Extended
+      43       43     0.00   General Punctuation
+   10102     1032    89.78   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Ubuntu_Kurdish_0.81_met-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Ubuntu_Kurdish_0.81_met.txt
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Ubuntu_Kurdish_0.81_met.txt encoding is UTF-8
+Jan 25, 2020 5:49:15 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Ubuntu_Kurdish_0.81_met.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1343   Characters
+      95   Errors
+   92.93%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.93%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      57       34        4       95   Unmarked
+      57       34        4       95   Total
+
+   Count   Missed   %Right
+     204        0   100.00   ASCII Spacing Characters
+      10        6    40.00   ASCII Special Symbols
+      13        0   100.00   ASCII Digits
+     695       24    96.55   Basic Arabic
+     364        4    98.90   Arabic Extended
+      57       57     0.00   General Punctuation
+    1343       91    93.22   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-UniMahan_Bilal-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-UniMahan_Bilal.txt
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-UniMahan_Bilal.txt encoding is UTF-8
+Jan 25, 2020 5:49:24 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-UniMahan_Bilal.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1300   Characters
+      98   Errors
+   92.46%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.46%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      50       45        3       98   Unmarked
+      50       45        3       98   Total
+
+   Count   Missed   %Right
+     206        0   100.00   ASCII Spacing Characters
+      15        4    73.33   ASCII Special Symbols
+      18        0   100.00   ASCII Digits
+     634       33    94.79   Basic Arabic
+     376        7    98.14   Arabic Extended
+      51       51     0.00   General Punctuation
+    1300       95    92.69   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-UniMahan_Rebin-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-UniMahan_Rebin.txt
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-UniMahan_Rebin.txt encoding is UTF-8
+Jan 25, 2020 5:49:38 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-UniMahan_Rebin.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1763   Characters
+     136   Errors
+   92.29%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.29%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      76       45       15      136   Unmarked
+      76       45       15      136   Total
+
+   Count   Missed   %Right
+     273        1    99.63   ASCII Spacing Characters
+      12        3    75.00   ASCII Special Symbols
+      10        0   100.00   ASCII Digits
+     872       46    94.72   Basic Arabic
+     536       11    97.95   Arabic Extended
+      60       60     0.00   General Punctuation
+    1763      121    93.14   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Chimen-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:49:51 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Chimen.txt
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Chimen.txt encoding is UTF-8
+Jan 25, 2020 5:49:52 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Chimen.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1815   Characters
+     164   Errors
+   90.96%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   90.96%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      85       66       13      164   Unmarked
+      85       66       13      164   Total
+
+   Count   Missed   %Right
+     274        0   100.00   ASCII Spacing Characters
+      31        9    70.97   ASCII Special Symbols
+      36        2    94.44   ASCII Digits
+     899       48    94.66   Basic Arabic
+     491        8    98.37   Arabic Extended
+      84       84     0.00   General Punctuation
+    1815      151    91.68   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Goran-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Goran.txt
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Goran.txt encoding is UTF-8
+Jan 25, 2020 5:50:06 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Goran.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2458   Characters
+     143   Errors
+   94.18%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.18%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      75       51       17      143   Unmarked
+      75       51       17      143   Total
+
+   Count   Missed   %Right
+     366        2    99.45   ASCII Spacing Characters
+      28        9    67.86   ASCII Special Symbols
+      23        0   100.00   ASCII Digits
+    1229       36    97.07   Basic Arabic
+     736        3    99.59   Arabic Extended
+      76       76     0.00   General Punctuation
+    2458      126    94.87   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Midya-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Midya.txt
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Midya.txt encoding is UTF-8
+Jan 25, 2020 5:50:20 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Midya.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1626   Characters
+     124   Errors
+   92.37%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.37%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      50       69        5      124   Unmarked
+      50       69        5      124   Total
+
+   Count   Missed   %Right
+     238        0   100.00   ASCII Spacing Characters
+      18       10    44.44   ASCII Special Symbols
+       3        0   100.00   ASCII Digits
+     755       30    96.03   Basic Arabic
+     563       30    94.67   Arabic Extended
+      49       49     0.00   General Punctuation
+    1626      119    92.68   Total
+
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Seyran-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Seyran.txt
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Seyran.txt encoding is UTF-8
+Jan 25, 2020 5:50:33 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Seyran.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1534   Characters
+     129   Errors
+   91.59%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.59%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      64       59        6      129   Unmarked
+      64       59        6      129   Total
+
+   Count   Missed   %Right
+     215        0   100.00   ASCII Spacing Characters
+      20        7    65.00   ASCII Special Symbols
+       9        0   100.00   ASCII Digits
+       2        2     0.00   Latin1 Spacing Characters
+     791       40    94.94   Basic Arabic
+     436       13    97.02   Arabic Extended
+      61       61     0.00   General Punctuation
+    1534      123    91.98   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Tishk-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:50:45 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Tishk.txt
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Tishk.txt encoding is UTF-8
+Jan 25, 2020 5:50:46 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Tishk.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1620   Characters
+     123   Errors
+   92.41%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   92.41%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      58       53       12      123   Unmarked
+      58       53       12      123   Total
+
+   Count   Missed   %Right
+     248        0   100.00   ASCII Spacing Characters
+      14        2    85.71   ASCII Special Symbols
+      16        0   100.00   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+     778       39    94.99   Basic Arabic
+     507       13    97.44   Arabic Extended
+      56       56     0.00   General Punctuation
+    1620      111    93.15   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-Unikurd_Web-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-Unikurd_Web.txt
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-Unikurd_Web.txt encoding is UTF-8
+Jan 25, 2020 5:51:02 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-Unikurd_Web.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    2206   Characters
+     152   Errors
+   93.11%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.11%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      77       54       21      152   Unmarked
+      77       54       21      152   Total
+
+   Count   Missed   %Right
+     337        0   100.00   ASCII Spacing Characters
+      23        6    73.91   ASCII Special Symbols
+      30        0   100.00   ASCII Digits
+       4        4     0.00   Latin1 Spacing Characters
+    1108       40    96.39   Basic Arabic
+     632        9    98.58   Arabic Extended
+      72       72     0.00   General Punctuation
+    2206      131    94.06   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-shasenem-kurd-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-shasenem-kurd.txt
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-shasenem-kurd.txt encoding is UTF-8
+Jan 25, 2020 5:51:11 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-shasenem-kurd.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1395   Characters
+     129   Errors
+   90.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   90.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      72       49        8      129   Unmarked
+      72       49        8      129   Total
+
+   Count   Missed   %Right
+     212        0   100.00   ASCII Spacing Characters
+      17        2    88.24   ASCII Special Symbols
+      24        1    95.83   ASCII Digits
+       1        1     0.00   Latin1 Spacing Characters
+     702       46    93.45   Basic Arabic
+     368        0   100.00   Arabic Extended
+      71       71     0.00   General Punctuation
+    1395      121    91.33   Total
+
+-----------------------------------------------------------------------------
+
+------------------------------------------------------------------- Arabic ckballfonts-shasenem-serder-ckballfontsLayer_3.64_123694_238900
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-shasenem-serder.txt
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-shasenem-serder.txt encoding is UTF-8
+Jan 25, 2020 5:51:26 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-shasenem-serder.txt encoding is UTF-8
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+    1947   Characters
+     207   Errors
+   89.37%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.37%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      86       91       30      207   Unmarked
+      86       91       30      207   Total
+
+   Count   Missed   %Right
+     317        0   100.00   ASCII Spacing Characters
+      45       23    48.89   ASCII Special Symbols
+      40       13    67.50   ASCII Digits
+     888       27    96.96   Basic Arabic
+     574       31    94.60   Arabic Extended
+      83       83     0.00   General Punctuation
+    1947      177    90.91   Total
+
+
+-----------------------------------------------------------------------------
+accuracy: text stream is too long
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: Logfile is /home/ubuntu/ocrevaluation/ocrevaluation.log
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: Processing gt-ckballfonts-ALL.txt
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: Application folder is /home/ubuntu/ocrevaluation
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: No properties were defined by user
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: max length of text set to 0
+Jan 25, 2020 5:51:28 AM eu.digitisation.utils.log.Messages info
+INFO: Text file gt-ckballfonts-ALL.txt encoding is UTF-8
+Jan 25, 2020 5:51:29 AM eu.digitisation.utils.log.Messages info
+INFO: Text file ocr-ckballfontsLayer_3.64_123694_238900-ckballfonts-ALL.txt encoding is UTF-8
+Jan 25, 2020 5:51:29 AM eu.digitisation.utils.log.Messages info
+INFO: 1% of file processed
+Jan 25, 2020 5:51:30 AM eu.digitisation.utils.log.Messages info
+INFO: 2% of file processed
+Jan 25, 2020 5:51:30 AM eu.digitisation.utils.log.Messages info
+INFO: 3% of file processed
+Jan 25, 2020 5:51:30 AM eu.digitisation.utils.log.Messages info
+INFO: 4% of file processed
+Jan 25, 2020 5:51:30 AM eu.digitisation.utils.log.Messages info
+INFO: 5% of file processed
+Jan 25, 2020 5:51:31 AM eu.digitisation.utils.log.Messages info
+INFO: 6% of file processed
+Jan 25, 2020 5:51:31 AM eu.digitisation.utils.log.Messages info
+INFO: 7% of file processed
+Jan 25, 2020 5:51:31 AM eu.digitisation.utils.log.Messages info
+INFO: 8% of file processed
+Jan 25, 2020 5:51:31 AM eu.digitisation.utils.log.Messages info
+INFO: 10% of file processed
+Jan 25, 2020 5:51:31 AM eu.digitisation.utils.log.Messages info
+INFO: 11% of file processed
+Jan 25, 2020 5:51:32 AM eu.digitisation.utils.log.Messages info
+INFO: 12% of file processed
+Jan 25, 2020 5:51:32 AM eu.digitisation.utils.log.Messages info
+INFO: 13% of file processed
+Jan 25, 2020 5:51:32 AM eu.digitisation.utils.log.Messages info
+INFO: 14% of file processed
+Jan 25, 2020 5:51:32 AM eu.digitisation.utils.log.Messages info
+INFO: 15% of file processed
+Jan 25, 2020 5:51:32 AM eu.digitisation.utils.log.Messages info
+INFO: 16% of file processed
+Jan 25, 2020 5:51:33 AM eu.digitisation.utils.log.Messages info
+INFO: 17% of file processed
+Jan 25, 2020 5:51:33 AM eu.digitisation.utils.log.Messages info
+INFO: 18% of file processed
+Jan 25, 2020 5:51:33 AM eu.digitisation.utils.log.Messages info
+INFO: 20% of file processed
+Jan 25, 2020 5:51:33 AM eu.digitisation.utils.log.Messages info
+INFO: 21% of file processed
+Jan 25, 2020 5:51:33 AM eu.digitisation.utils.log.Messages info
+INFO: 22% of file processed
+Jan 25, 2020 5:51:34 AM eu.digitisation.utils.log.Messages info
+INFO: 23% of file processed
+Jan 25, 2020 5:51:34 AM eu.digitisation.utils.log.Messages info
+INFO: 24% of file processed
+Jan 25, 2020 5:51:35 AM eu.digitisation.utils.log.Messages info
+INFO: 25% of file processed
+Jan 25, 2020 5:51:35 AM eu.digitisation.utils.log.Messages info
+INFO: 26% of file processed
+Jan 25, 2020 5:51:35 AM eu.digitisation.utils.log.Messages info
+INFO: 27% of file processed
+Jan 25, 2020 5:51:36 AM eu.digitisation.utils.log.Messages info
+INFO: 28% of file processed
+Jan 25, 2020 5:51:36 AM eu.digitisation.utils.log.Messages info
+INFO: 29% of file processed
+Jan 25, 2020 5:51:37 AM eu.digitisation.utils.log.Messages info
+INFO: 30% of file processed
+Jan 25, 2020 5:51:37 AM eu.digitisation.utils.log.Messages info
+INFO: 31% of file processed
+Jan 25, 2020 5:51:37 AM eu.digitisation.utils.log.Messages info
+INFO: 33% of file processed
+Jan 25, 2020 5:51:37 AM eu.digitisation.utils.log.Messages info
+INFO: 34% of file processed
+Jan 25, 2020 5:51:37 AM eu.digitisation.utils.log.Messages info
+INFO: 35% of file processed
+Jan 25, 2020 5:51:38 AM eu.digitisation.utils.log.Messages info
+INFO: 36% of file processed
+Jan 25, 2020 5:51:38 AM eu.digitisation.utils.log.Messages info
+INFO: 37% of file processed
+Jan 25, 2020 5:51:38 AM eu.digitisation.utils.log.Messages info
+INFO: 38% of file processed
+Jan 25, 2020 5:51:39 AM eu.digitisation.utils.log.Messages info
+INFO: 39% of file processed
+Jan 25, 2020 5:51:39 AM eu.digitisation.utils.log.Messages info
+INFO: 40% of file processed
+Jan 25, 2020 5:51:39 AM eu.digitisation.utils.log.Messages info
+INFO: 41% of file processed
+Jan 25, 2020 5:51:39 AM eu.digitisation.utils.log.Messages info
+INFO: 42% of file processed
+Jan 25, 2020 5:51:40 AM eu.digitisation.utils.log.Messages info
+INFO: 44% of file processed
+Jan 25, 2020 5:51:40 AM eu.digitisation.utils.log.Messages info
+INFO: 45% of file processed
+Jan 25, 2020 5:51:40 AM eu.digitisation.utils.log.Messages info
+INFO: 46% of file processed
+Jan 25, 2020 5:51:40 AM eu.digitisation.utils.log.Messages info
+INFO: 47% of file processed
+Jan 25, 2020 5:51:40 AM eu.digitisation.utils.log.Messages info
+INFO: 48% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 49% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 50% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 51% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 53% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 54% of file processed
+Jan 25, 2020 5:51:41 AM eu.digitisation.utils.log.Messages info
+INFO: 55% of file processed
+Jan 25, 2020 5:51:42 AM eu.digitisation.utils.log.Messages info
+INFO: 56% of file processed
+Jan 25, 2020 5:51:42 AM eu.digitisation.utils.log.Messages info
+INFO: 57% of file processed
+Jan 25, 2020 5:51:42 AM eu.digitisation.utils.log.Messages info
+INFO: 58% of file processed
+Jan 25, 2020 5:51:42 AM eu.digitisation.utils.log.Messages info
+INFO: 59% of file processed
+Jan 25, 2020 5:51:43 AM eu.digitisation.utils.log.Messages info
+INFO: 60% of file processed
+Jan 25, 2020 5:51:43 AM eu.digitisation.utils.log.Messages info
+INFO: 61% of file processed
+Jan 25, 2020 5:51:43 AM eu.digitisation.utils.log.Messages info
+INFO: 62% of file processed
+Jan 25, 2020 5:51:44 AM eu.digitisation.utils.log.Messages info
+INFO: 64% of file processed
+Jan 25, 2020 5:51:44 AM eu.digitisation.utils.log.Messages info
+INFO: 65% of file processed
+Jan 25, 2020 5:51:44 AM eu.digitisation.utils.log.Messages info
+INFO: 66% of file processed
+Jan 25, 2020 5:51:45 AM eu.digitisation.utils.log.Messages info
+INFO: 67% of file processed
+Jan 25, 2020 5:51:45 AM eu.digitisation.utils.log.Messages info
+INFO: 68% of file processed
+Jan 25, 2020 5:51:45 AM eu.digitisation.utils.log.Messages info
+INFO: 69% of file processed
+Jan 25, 2020 5:51:45 AM eu.digitisation.utils.log.Messages info
+INFO: 70% of file processed
+Jan 25, 2020 5:51:45 AM eu.digitisation.utils.log.Messages info
+INFO: 71% of file processed
+Jan 25, 2020 5:51:46 AM eu.digitisation.utils.log.Messages info
+INFO: 73% of file processed
+Jan 25, 2020 5:51:46 AM eu.digitisation.utils.log.Messages info
+INFO: 74% of file processed
+Jan 25, 2020 5:51:46 AM eu.digitisation.utils.log.Messages info
+INFO: 75% of file processed
+Jan 25, 2020 5:51:46 AM eu.digitisation.utils.log.Messages info
+INFO: 76% of file processed
+Jan 25, 2020 5:51:46 AM eu.digitisation.utils.log.Messages info
+INFO: 77% of file processed
+Jan 25, 2020 5:51:47 AM eu.digitisation.utils.log.Messages info
+INFO: 78% of file processed
+Jan 25, 2020 5:51:47 AM eu.digitisation.utils.log.Messages info
+INFO: 80% of file processed
+Jan 25, 2020 5:51:47 AM eu.digitisation.utils.log.Messages info
+INFO: 81% of file processed
+Jan 25, 2020 5:51:47 AM eu.digitisation.utils.log.Messages info
+INFO: 82% of file processed
+Jan 25, 2020 5:51:47 AM eu.digitisation.utils.log.Messages info
+INFO: 83% of file processed
+Jan 25, 2020 5:51:48 AM eu.digitisation.utils.log.Messages info
+INFO: 84% of file processed
+Jan 25, 2020 5:51:48 AM eu.digitisation.utils.log.Messages info
+INFO: 85% of file processed
+Jan 25, 2020 5:51:48 AM eu.digitisation.utils.log.Messages info
+INFO: 86% of file processed
+Jan 25, 2020 5:51:48 AM eu.digitisation.utils.log.Messages info
+INFO: 87% of file processed
+Jan 25, 2020 5:51:48 AM eu.digitisation.utils.log.Messages info
+INFO: 89% of file processed
+Jan 25, 2020 5:51:49 AM eu.digitisation.utils.log.Messages info
+INFO: 90% of file processed
+Jan 25, 2020 5:51:49 AM eu.digitisation.utils.log.Messages info
+INFO: 91% of file processed
+Jan 25, 2020 5:51:49 AM eu.digitisation.utils.log.Messages info
+INFO: 92% of file processed
+Jan 25, 2020 5:51:49 AM eu.digitisation.utils.log.Messages info
+INFO: 93% of file processed
+Jan 25, 2020 5:51:49 AM eu.digitisation.utils.log.Messages info
+INFO: 94% of file processed
+Jan 25, 2020 5:51:50 AM eu.digitisation.utils.log.Messages info
+INFO: 95% of file processed
+Jan 25, 2020 5:51:50 AM eu.digitisation.utils.log.Messages info
+INFO: 96% of file processed
+Jan 25, 2020 5:51:50 AM eu.digitisation.utils.log.Messages info
+INFO: 97% of file processed
+Jan 25, 2020 5:51:50 AM eu.digitisation.utils.log.Messages info
+INFO: 100% of file processed
+
+-----------------------------------------------------------------------------
+
+*************************************************************************
+7-run_checkpoint_eval.sh: line 59: unexpected EOF while looking for matching `"'
+7-run_checkpoint_eval.sh: line 62: syntax error: unexpected end of file
+Command exited with non-zero status 2
+real 1419.31
+user 1217.21
+sys 36.03
