@@ -28,6 +28,12 @@ lstmtraining \
           --stop_training \
           --continue_from data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint \
           --traineddata data/ckb/ckb.traineddata \
+          --model_output data/ckb/tessdata_best/ckbLayer_1.661_152089_296500.traineddata
+Loaded file data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint \
+          --traineddata data/ckb/ckb.traineddata \
           --convert_to_int \
           --model_output data/ckb/tessdata_fast/ckbLayer_1.661_152089_296500.traineddata
 Loaded file data/ckb/checkpoints/ckbLayer_1.661_152089_296500.checkpoint, unpacking...
@@ -35,7 +41,10 @@ data/ckb/tessdata_fast/ckbLayer_1.521_211471_444500.traineddata
 ckbLayer_1.521_211471_444500.traineddata
 ckbLayer_1.521_211471_444500
 
-***** Arabic *****   ckbLayer_1.521_211471_444500  
+------------------------------------------------------------------- Arabic 
+
+
+------------------------------------------------------------------- Arabic  -ckbLayer_1.521_211471_444500 
 
 
 ----------------------------------------------------------------------------- ckb
@@ -828,7 +837,10 @@ data/ckb/tessdata_fast/ckbLayer_1.575_195614_402900.traineddata
 ckbLayer_1.575_195614_402900.traineddata
 ckbLayer_1.575_195614_402900
 
-***** Arabic *****   ckbLayer_1.575_195614_402900  
+------------------------------------------------------------------- Arabic 
+
+
+------------------------------------------------------------------- Arabic  ckb-ckbLayer_1.575_195614_402900 
 
 
 ----------------------------------------------------------------------------- ckb
@@ -1621,7 +1633,10 @@ data/ckb/tessdata_fast/ckbLayer_1.661_152089_296500.traineddata
 ckbLayer_1.661_152089_296500.traineddata
 ckbLayer_1.661_152089_296500
 
-***** Arabic *****   ckbLayer_1.661_152089_296500  
+------------------------------------------------------------------- Arabic 
+
+
+------------------------------------------------------------------- Arabic  ckb-ckbLayer_1.661_152089_296500 
 
 
 ----------------------------------------------------------------------------- ckb
@@ -2410,6 +2425,6 @@ accuracy: text stream is too long
 -----------------------------------------------------------------------------
 
 *************************************************************************
-real 1130.86
-user 1101.20
-sys 37.24
+real 1120.66
+user 1099.64
+sys 37.00

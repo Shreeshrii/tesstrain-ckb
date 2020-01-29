@@ -7,7 +7,7 @@ HEADCOUNT=$2
 mkdir -p $SCRIPTPATH/reports
 
 # make traineddata files from last three checkpoints
-rm data/$LANG/tessdata_fast/*.traineddata
+rm data/$LANG/tessdata_fast/*.traineddata data/$LANG/tessdata_best/*.traineddata
 ls -t data/$LANG/checkpoints/*.checkpoint | head -$HEADCOUNT > tmpcheckpoints
 CHECKPOINT_FILES=tmpcheckpoints
 while IFS= read -r TESTCHECK
@@ -21,7 +21,8 @@ for TRAINEDDATA in $TRAINEDDATAFILES  ; do
 	echo $TRAINEDDATA
 	echo $TRAINEDDATAFILE
 	echo ${TRAINEDDATAFILE%.*}
-      echo -e  "\n***** Arabic *****   ${TRAINEDDATAFILE%.*}  \n"
+      echo -e  "\n------------------------------------------------------------------- Arabic \n"
+      echo -e  "\n------------------------------------------------------------------- Arabic  $PREFIX-${TRAINEDDATAFILE%.*} \n"
            for PREFIX in $LANG ; do
 			   FONTLIST=$SCRIPTPATH/langdata/$PREFIX.fontslist.txt
                LISTEVAL=$SCRIPTPATH/data/$PREFIX/list.eval
