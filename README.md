@@ -9,7 +9,7 @@ Since `ocrevalutf8 accuracy` is not able to handle large utf files, only a selec
 
 ## ckb - Central Kurdish/Sorani in Arabic script
 
-Replace the top layer training is being done using 26 fonts. The training text includes punctuation, AWN and AEN numbers. Fonts used do not include those which convert 0-9 to either Arabic or Persian numbers.
+Replace the top layer training is being done using [26 fonts](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb/all-fonts). The [training text](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb/all-gt) includes punctuation, AWN and AEN numbers. Fonts used do not include those which convert 0-9 to either Arabic or Persian numbers.
 
 Currently the training data includes
 * AWN 0-9
@@ -26,7 +26,7 @@ General punctuation (parenthesis, brackets, etc.) is reported as having accuracy
 
 The following table has comparative results for the most used fonts for the _fast models from official repo 
 and various finetuned models for Central Kurdish, using [lstmf files in list.eval](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb/list.eval)
-which were not used for training. 
+which are different from those [used for training](https://github.com/Shreeshrii/tesstrain-ckb/blob/master/data/ckb/list.train). 
 
 [Reports with additional details for all fonts are also available.](https://github.com/Shreeshrii/tesstrain-ckb/tree/master/reports)
 
