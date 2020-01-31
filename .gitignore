@@ -12,5 +12,5 @@ gt/*
 gt/*.*
 langdata/*bigrams
 langdata/kur.*
-reports/*/*
 reports/*lstmeval*
+1-txt2lstmf*
