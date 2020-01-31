@@ -71,11 +71,11 @@ Finished Arabic Typesetting
      723      271    62.52   Arabic Extended
        5        4    20.00   General Punctuation
  ********************Arabic ***** ckb-Peshang_Des_1, ********************
-   80.89%  Accuracy
+   80.95%  Accuracy
       30        0   100.00   ASCII Digits
     1346       63    95.32   Basic Arabic
      879      344    60.86   Arabic Extended
-      11        9    18.18   General Punctuation
+      10        8    20.00   General Punctuation
  ********************Arabic ***** ckb-RudawRegular ********************
    79.09%  Accuracy
       10        0   100.00   ASCII Digits
@@ -119,7 +119,7 @@ Finished Arabic Typesetting
     1217      441    63.76   Arabic Extended
        7        6    14.29   General Punctuation
  ********************Arabic ***** ckb-Tahoma_Bold ********************
-   77.17%  Accuracy
+   77.19%  Accuracy
       20        0   100.00   ASCII Digits
     2120      130    93.87   Basic Arabic
     1367      619    54.72   Arabic Extended

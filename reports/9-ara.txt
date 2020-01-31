@@ -3,8 +3,8 @@
 
  ********************Arabic ***** ckb-Abd_Akre ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2649   Characters
     1101   Errors
    58.44%  Accuracy
@@ -29,12 +29,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        9        9     0.00   General Punctuation
     2649     1047    60.48   Total
 
+
+-----------------------------------------------------------------------------
 Finished Abd Akre
 
  ********************Arabic ***** ckb-Abd_Gare ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     3246   Characters
     1295   Errors
    60.10%  Accuracy
@@ -59,12 +61,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
     3246     1157    64.36   Total
 
   Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
 Finished Abd Gare
 
  ********************Arabic ***** ckb-Abd_Halabja_OLD ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2171   Characters
      772   Errors
    64.44%  Accuracy
@@ -89,12 +93,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        4        4     0.00   General Punctuation
     2171      729    66.42   Total
 
+
+-----------------------------------------------------------------------------
 Finished Abd Halabja OLD
 
  ********************Arabic ***** ckb-Abd_Hewler ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2613   Characters
     1035   Errors
    60.39%  Accuracy
@@ -119,12 +125,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      854      851     0.35   Arabic Extended
        5        5     0.00   General Punctuation
     2613      966    63.03   Total
+
+-----------------------------------------------------------------------------
 Finished Abd Hewler
 
  ********************Arabic ***** ckb-Abd_Metin_Bold, ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2260   Characters
      875   Errors
    61.28%  Accuracy
@@ -149,12 +157,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        1        1     0.00   General Punctuation
     2260      793    64.91   Total
 
+
+-----------------------------------------------------------------------------
 Finished Abd Metin Bold,
 
  ********************Arabic ***** ckb-Abd_Umed ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2106   Characters
      915   Errors
    56.55%  Accuracy
@@ -179,12 +189,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        6        6     0.00   General Punctuation
     2106      824    60.87   Total
 
+
+-----------------------------------------------------------------------------
 Finished Abd Umed
 
  ********************Arabic ***** ckb-Adobe_Arabic_Bold ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2398   Characters
      855   Errors
    64.35%  Accuracy
@@ -209,12 +221,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        5        5     0.00   General Punctuation
     2398      790    67.06   Total
 
+
+-----------------------------------------------------------------------------
 Finished Adobe Arabic Bold
 
  ********************Arabic ***** ckb-Arabic_Typesetting ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2076   Characters
      916   Errors
    55.88%  Accuracy
@@ -239,12 +253,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      668      665     0.45   Arabic Extended
        9        9     0.00   General Punctuation
     2076      887    57.27   Total
+
+-----------------------------------------------------------------------------
 Finished Arabic Typesetting
 
  ********************Arabic ***** ckb-Arial ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     1946   Characters
      725   Errors
    62.74%  Accuracy
@@ -269,12 +285,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
     1946      690    64.54   Total
 
   Errors   Marked   Correct-Generated
+
+-----------------------------------------------------------------------------
 Finished Arial
 
  ********************Arabic ***** ckb-Arial_Bold ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     5823   Characters
     2126   Errors
    63.49%  Accuracy
@@ -299,12 +317,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
     1853     1832     1.13   Arabic Extended
        9        9     0.00   General Punctuation
     5823     1988    65.86   Total
+
+-----------------------------------------------------------------------------
 Finished Arial Bold
 
  ********************Arabic ***** ckb-NRT_Bold, ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2714   Characters
     1127   Errors
    58.47%  Accuracy
@@ -329,12 +349,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        8        8     0.00   General Punctuation
     2714     1031    62.01   Total
 
+
+-----------------------------------------------------------------------------
 Finished NRT Bold,
 
  ********************Arabic ***** ckb-NRT_Reg ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2522   Characters
      847   Errors
    66.42%  Accuracy
@@ -359,42 +381,46 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      723      721     0.28   Arabic Extended
        5        5     0.00   General Punctuation
     2522      784    68.91   Total
+
+-----------------------------------------------------------------------------
 Finished NRT Reg
 
  ********************Arabic ***** ckb-Peshang_Des_1, ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    2689   Characters
-    1065   Errors
-   60.39%  Accuracy
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    2687   Characters
+    1063   Errors
+   60.44%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   60.39%  Accuracy After Correction
+   60.44%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      33      949       83     1065   Unmarked
-      33      949       83     1065   Total
+      32      947       84     1063   Unmarked
+      32      947       84     1063   Total
 
    Count   Missed   %Right
-     382        4    98.95   ASCII Spacing Characters
+     381        3    99.21   ASCII Spacing Characters
       41        4    90.24   ASCII Special Symbols
       30        0   100.00   ASCII Digits
-    1346       89    93.39   Basic Arabic
+    1346       88    93.46   Basic Arabic
      879      874     0.57   Arabic Extended
-      11       11     0.00   General Punctuation
-    2689      982    63.48   Total
+      10       10     0.00   General Punctuation
+    2687      979    63.57   Total
 
+
+-----------------------------------------------------------------------------
 Finished Peshang Des 1,
 
  ********************Arabic ***** ckb-RudawRegular ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     1808   Characters
      646   Errors
    64.27%  Accuracy
@@ -419,12 +445,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
       11       11     0.00   General Punctuation
     1808      601    66.76   Total
 
+
+-----------------------------------------------------------------------------
 Finished RudawRegular
 
  ********************Arabic ***** ckb-Sarchia_Banoka_1 ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     3180   Characters
     1247   Errors
    60.79%  Accuracy
@@ -449,12 +477,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
       15       15     0.00   General Punctuation
     3180     1142    64.09   Total
 
+
+-----------------------------------------------------------------------------
 Finished Sarchia_Banoka_1
 
  ********************Arabic ***** ckb-Segoe_UI ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2616   Characters
      968   Errors
    63.00%  Accuracy
@@ -479,12 +509,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      810      804     0.74   Arabic Extended
       11       11     0.00   General Punctuation
     2616      901    65.56   Total
+
+-----------------------------------------------------------------------------
 Finished Segoe UI
 
  ********************Arabic ***** ckb-Segoe_UI_Bold ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     4574   Characters
     1761   Errors
    61.50%  Accuracy
@@ -509,12 +541,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
     1472     1463     0.61   Arabic Extended
       19       19     0.00   General Punctuation
     4574     1613    64.74   Total
+
+-----------------------------------------------------------------------------
 Finished Segoe UI Bold
 
  ********************Arabic ***** ckb-Speda ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     1668   Characters
      609   Errors
    63.49%  Accuracy
@@ -539,12 +573,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      509      507     0.39   Arabic Extended
        2        2     0.00   General Punctuation
     1668      557    66.61   Total
+
+-----------------------------------------------------------------------------
 Finished Speda
 
  ********************Arabic ***** ckb-Speda_Bold ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     5126   Characters
     1979   Errors
    61.39%  Accuracy
@@ -569,12 +605,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
       20       20     0.00   General Punctuation
     5126     1826    64.38   Total
 
+
+-----------------------------------------------------------------------------
 Finished Speda Bold
 
  ********************Arabic ***** ckb-Tahoma ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     3658   Characters
     1406   Errors
    61.56%  Accuracy
@@ -599,42 +637,46 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        7        7     0.00   General Punctuation
     3658     1298    64.52   Total
 
+
+-----------------------------------------------------------------------------
 Finished Tahoma
 
  ********************Arabic ***** ckb-Tahoma_Bold ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
-    4236   Characters
-    1622   Errors
-   61.71%  Accuracy
+ocreval Accuracy Report Version 7.0
+-----------------------------------
+    4235   Characters
+    1621   Errors
+   61.72%  Accuracy
 
        0   Reject Characters
        0   Suspect Markers
        0   False Marks
     0.00%  Characters Marked
-   61.71%  Accuracy After Correction
+   61.72%  Accuracy After Correction
 
      Ins    Subst      Del   Errors
        0        0        0        0   Marked
-      96     1410      116     1622   Unmarked
-      96     1410      116     1622   Total
+      95     1410      116     1621   Unmarked
+      95     1410      116     1621   Total
 
    Count   Missed   %Right
      648       19    97.07   ASCII Spacing Characters
       73        5    93.15   ASCII Special Symbols
       20        0   100.00   ASCII Digits
-       1        1     0.00   Latin1 Spacing Characters
        1        1     0.00   Latin1 Special Symbols
     2120      125    94.10   Basic Arabic
     1367     1349     1.32   Arabic Extended
        6        6     0.00   General Punctuation
+    4235     1505    64.46   Total
+
+-----------------------------------------------------------------------------
 Finished Tahoma Bold
 
  ********************Arabic ***** ckb-Ubuntu_Kurdish_0.81_met ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2211   Characters
      874   Errors
    60.47%  Accuracy
@@ -659,12 +701,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        4        4     0.00   General Punctuation
     2211      804    63.64   Total
 
+
+-----------------------------------------------------------------------------
 Finished Ubuntu Kurdish 0.81 met
 
  ********************Arabic ***** ckb-Unikurd_Chimen ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2428   Characters
     1015   Errors
    58.20%  Accuracy
@@ -689,12 +733,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      849      837     1.41   Arabic Extended
        4        4     0.00   General Punctuation
     2428      921    62.07   Total
+
+-----------------------------------------------------------------------------
 Finished Unikurd Chimen
 
  ********************Arabic ***** ckb-Unikurd_Goran ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2523   Characters
      990   Errors
    60.76%  Accuracy
@@ -719,12 +765,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        2        2     0.00   General Punctuation
     2523      943    62.62   Total
 
+
+-----------------------------------------------------------------------------
 Finished Unikurd Goran
 
  ********************Arabic ***** ckb-Unikurd_Web ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2370   Characters
      906   Errors
    61.77%  Accuracy
@@ -749,12 +797,14 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
      729      721     1.10   Arabic Extended
        2        2     0.00   General Punctuation
     2370      807    65.95   Total
+
+-----------------------------------------------------------------------------
 Finished Unikurd Web
 
  ********************Arabic ***** ckb-shasenem-kurd ********************
 
-UNLV-ISRI OCR Accuracy Report Version 5.1
------------------------------------------
+ocreval Accuracy Report Version 7.0
+-----------------------------------
     2243   Characters
      837   Errors
    62.68%  Accuracy
@@ -779,8 +829,18 @@ UNLV-ISRI OCR Accuracy Report Version 5.1
        4        4     0.00   General Punctuation
     2243      780    65.23   Total
 
+
+-----------------------------------------------------------------------------
 Finished shasenem-kurd
+
+-----------------------------------------------------------------------------
 Finished ckb
-real 435.29
-user 437.82
-sys 9.93
+
+-----------------------------------------------------------------------------
+Finished ckb
+9-run_fast_ara_eval.sh: line 46: syntax error near unexpected token `done'
+9-run_fast_ara_eval.sh: line 46: `done '
+Command exited with non-zero status 2
+real 734.84
+user 478.12
+sys 14.37

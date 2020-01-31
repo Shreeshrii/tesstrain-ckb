@@ -3,13 +3,13 @@
 *test*
 *xxx*.*
 data/*.txt
-data/*/check*
+data/*/
 data/*lstmf
 data/*unicharset
 data/fast_*
 data/script
 gt/*
 gt/*.*
-langdata/*
+langdata/*bigrams
 langdata/kur.*
 reports/*/*

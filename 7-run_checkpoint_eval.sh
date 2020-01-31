@@ -1,5 +1,5 @@
 #!/bin/sh
-# nohup time -p bash  7-run_checkpoint_eval.sh ckb 3 > reports/7-ckb.txt & 
+# nohup time -p bash  7-run_checkpoint_eval.sh ckb 4 > reports/7-ckb.txt & 
 
 SCRIPTPATH=`pwd`
 LANG=$1
@@ -43,14 +43,14 @@ for TRAINEDDATA in $TRAINEDDATAFILES  ; do
                             cat ${LSTMFNAME%.*}-${TRAINEDDATAFILE%.*}.txt   >>  $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt
                     fi
                 done < $LISTEVAL
-                ocrevalutf8 accuracy $REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt  $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt  > $REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt
+                 accuracy $REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt  $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt  > $REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt
 	           java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  -ocr "$REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt"  -e UTF-8   -o "$REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.html"    1>/dev/null 2>&1
                 head -26 $REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt
                 cat $REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt  >> $REPORTSPATH/gt-$PREFIX-ALL.txt 
                 cat $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt >> $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt 
                 echo -e  "\n-----------------------------------------------------------------------------"  
             done < "$FONTLIST"
-            ocrevalutf8 accuracy $REPORTSPATH/gt-$PREFIX-ALL.txt  $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt  > $REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt
+             accuracy $REPORTSPATH/gt-$PREFIX-ALL.txt  $REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt  > $REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt
             java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "$REPORTSPATH/gt-$PREFIX-ALL.txt"  -ocr "$REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-ALL.txt"  -e UTF-8   -o "$REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-ALL.html"      1>/dev/null 2>&1
             echo -e  "\n-----------------------------------------------------------------------------"  
         done 

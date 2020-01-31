@@ -1,4 +1,5 @@
 #!/bin/sh
+# nohup time -p bash  9-run_fast_ara_eval.sh ara ckb > reports/9-ara.txt & 
 # nohup time -p bash  9-run_fast_ara_eval.sh Arabic ckb > reports/9-Arabic.txt & 
 
 SCRIPTPATH=`pwd`
@@ -27,7 +28,7 @@ for PREFIX in $LANG  ; do
                   cat "${LSTMFNAME%.*}"-${FASTMODEL}.txt   >>  "$REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"
             fi
         done < "$LISTEVAL"
-        ocrevalutf8 accuracy "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  "$REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"  > "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"
+         accuracy "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  "$REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"  > "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"
         java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  -ocr "$REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"   -e UTF-8   -o "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-${FONTNAME// /_}.html"  1>/dev/null 2>&1
         head -26 "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-${FONTNAME// /_}.txt"
         cat "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  >> $REPORTSPATH/gt-$PREFIX-ALL.txt 
@@ -35,9 +36,10 @@ for PREFIX in $LANG  ; do
         echo -e  "\n-----------------------------------------------------------------------------"  
         echo "Finished $FONTNAME"
         done < "$FONTLIST"
+        accuracy  $REPORTSPATH/gt-$PREFIX-ALL.txt   $REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-ALL.txt  > "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-ALL.txt"
         java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt $REPORTSPATH/gt-$PREFIX-ALL.txt  -ocr $REPORTSPATH/ocr-${FASTMODEL}-$PREFIX-ALL.txt  -e UTF-8   -o "$REPORTSPATH/report_${FASTMODEL}-$PREFIX-ALL.html"      1>/dev/null 2>&1
         echo -e  "\n-----------------------------------------------------------------------------" 
 echo "Finished $PREFIX"
 done 
 
-egrep 'Arabic|Accuracy$|Digits|Punctuation' reports/9-Arabic.txt > reports/9-Arabic-summary.txt
+egrep 'Arabic|Accuracy$|Digits|Punctuation' reports/9-${MODEL}.txt > reports/9-${MODEL}-summary.txt

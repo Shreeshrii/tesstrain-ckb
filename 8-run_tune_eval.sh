@@ -28,7 +28,7 @@ for PREFIX in $LANG ; do
                   cat "${LSTMFNAME%.*}"-${MODEL}.txt   >>  "$REPORTSPATH/ocr-${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"
             fi
         done < "$LISTEVAL"
-        ocrevalutf8 accuracy "$REPORTSPATH/gt-$PREFIX-"${FONTNAME// /_}".txt"  "$REPORTSPATH/ocr-${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"  > "$REPORTSPATH/report_${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"
+         accuracy "$REPORTSPATH/gt-$PREFIX-"${FONTNAME// /_}".txt"  "$REPORTSPATH/ocr-${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"  > "$REPORTSPATH/report_${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"
         java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "$REPORTSPATH/gt-$PREFIX-${FONTNAME// /_}.txt"  -ocr "$REPORTSPATH/ocr-${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.txt"  -e UTF-8   -o "$REPORTSPATH/report_${TRAINEDDATAFILE%.*}-$PREFIX-${FONTNAME// /_}.html" 
         head -26 "$REPORTSPATH/report_${MODEL}-$PREFIX-"${FONTNAME// /_}".txt"
         echo -e "\n **************** Finished $FONTNAME **********************************\n"
