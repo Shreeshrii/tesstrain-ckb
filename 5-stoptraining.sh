@@ -1,10 +1,8 @@
 #!/bin/sh
-# nohup time -p bash  -x 5-stoptraining.sh ckball Layer > 5-stoptraining-ckballLayer_fast.log & 
-# nohup time -p bash  -x 5-stoptraining.sh ckballfonts Layer > 5-stoptraining-ckballfontsLayer_fast.log & 
 
 SCRIPTPATH=`pwd`
-PREFIX=$1
-BUILDTYPE=$2
+PREFIX=ckb
+BUILDTYPE=Layer
 CHECKPOINT=${PREFIX}${BUILDTYPE}
 MODEL=${CHECKPOINT}_fast
 
