@@ -26,8 +26,10 @@ and various finetuned models for Central Kurdish, using lstmf files in list.eval
 
 [Reports with additional details for all fonts are also available.](https://github.com/Shreeshrii/tesstrain-ckb/tree/master/reports)
 
+|   	|   	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|---	|
 |                                   	|                 	| Arial 	| Arial Bold 	| Tahoma 	| Tahoma Bold 	|
-| Official Models --------------	|-----------------	|------:	|-----------:	|-------:	|------------:	|
+| Official Models --------------	|-----------------	|------	|-----------	|-------	|-----------	|
 |                                   	|                 	|       	|            	|        	|             	|
 | tessdata_fast/ara                 	| Accuracy        	| 62.74 	|      63.49 	|  61.56 	|       61.71 	|
 | tessdata_fast/ara                 	| Basic Arabic    	| 95.68 	|      95.22 	|  95.76 	|       94.10 	|
